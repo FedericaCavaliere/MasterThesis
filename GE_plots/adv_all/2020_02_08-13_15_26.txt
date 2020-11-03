@@ -1,0 +1,1186 @@
+Dataset:Spiral/Full.csv
+FS:True
+Seed:1235
+Size:10
+
+Gen:1
+TrainFitness:0.6666666666666666
+TestFitness:0.6666666666666666
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.greater(x[index],+507730.6967).all():
+      return False
+    else:
+      return False
+  def adf1(index):
+    if np.less(x[index],-349659.7418).all():
+      return False
+    else:
+      return False
+  def adf2(index):
+    if np.less(x[index],-764210.5511).all():
+      return True
+    else:
+      return False
+  def adf3(index):
+    if np.equal(psqrt(x[index]),+266360.1805).all():
+      return True
+    else:
+      return False
+  def adf4(index):
+    if np.less(x[index],+477131.2908).all():
+      return False
+    else:
+      return True
+  def adf7(index):
+    if np.less(x[index],+948938.2221).all():
+      return False
+    else:
+      return True
+  return multiple_operation([adf0(0)*-172.225, adf1(1)*+724.229, adf2(2)*-523.866, adf3(3)*-403.287, adf4(4)*-442.505, adf7(7)*-459.525], [1, 1, 1, 0, 0], 944.642)
+result=p(); 0.6666666666666666
+IndLenGenome:280
+IndGenome:[94, 25, 19, 34, 59, 80, 83, 63, 46, 97, 73, 55, 46, 44, 14, 55, 89, 79, 96, 30, 49, 32, 45, 15, 17, 69, 19, 61, 26, 82, 67, 52, 2, 57, 27, 12, 17, 40, 72, 77, 32, 19, 22, 15, 99, 67, 41, 14, 94, 52, 95, 83, 76, 44, 18, 33, 87, 95, 43, 70, 90, 40, 63, 52, 13, 65, 48, 39, 51, 21, 47, 21, 47, 83, 74, 25, 22, 72, 24, 16, 7, 91, 55, 77, 74, 47, 52, 5, 24, 85, 17, 37, 86, 45, 71, 62, 93, 28, 52, 40, 25, 60, 73, 66, 90, 99, 13, 26, 41, 79, 82, 65, 60, 37, 56, 52, 72, 56, 60, 28, 72, 54, 93, 42, 31, 64, 85, 52, 13, 16, 61, 26, 33, 24, 96, 41, 65, 10, 41, 34, 57, 45, 3, 87, 92, 51, 50, 20, 49, 59, 98, 48, 43, 52, 35, 81, 92, 10, 85, 25, 34, 73, 65, 87, 14, 84, 35, 81, 18, 71, 16, 17, 34, 93, 55, 44, 57, 79, 33, 73, 48, 32, 96, 79, 16, 53, 35, 56, 27, 71, 85, 71, 52, 76, 20, 94, 53, 39, 33, 13, 92, 50, 55, 1, 92, 69, 27, 53, 19, 89, 11, 46, 24, 28, 18, 50, 100, 7, 11, 86, 80, 78, 26, 35, 39, 14, 63, 41, 1, 69, 20, 44, 50, 29, 87, 95, 17, 18, 26, 28, 42, 15, 52, 37, 3, 92, 13, 94, 85, 25, 21, 71, 40, 21, 17, 3, 84, 54, 10, 92, 99, 47, 39, 86, 32, 58, 65, 22, 51, 10, 64, 64, 38, 66, 80, 66, 89, 6, 53, 0]
+last_save: 1011
+
+Gen:2001
+last_save: 1011
+Exit:FalseFalseTrue
+
+Gen:1
+TrainFitness:0.8333333333333334
+TestFitness:0.5
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.equal(x[index],-802290.6456).all():
+      return True
+    else:
+      return True
+  def adf1(index):
+    if np.greater(x[index],-353975.8848).all():
+      return False
+    else:
+      return False
+  def adf2(index):
+    if np.greater(np.tanh(x[index]),+275711.1896).all():
+      return True
+    else:
+      return False
+  def adf3(index):
+    if np.greater(x[index],-197342.5144).all():
+      return False
+    else:
+      return True
+  def adf4(index):
+    if np.greater(x[index],+027435.7206).all():
+      return True
+    else:
+      return False
+  def adf7(index):
+    if np.greater(x[index],-535194.4403).all():
+      return False
+    else:
+      return True
+  return multiple_operation([adf0(0)*+198.861, adf1(1)*+022.618, adf2(2)*-226.966, adf3(3)*-173.707, adf4(4)*-788.152, adf7(7)*+315.482], [0, 0, 0, 0, 0], 573.768)
+result=p(); 0.8333333333333334
+IndLenGenome:280
+IndGenome:[3, 17, 95, 23, 67, 41, 72, 77, 36, 85, 27, 11, 29, 39, 72, 72, 21, 17, 32, 48, 23, 14, 77, 97, 8, 33, 3, 65, 21, 96, 29, 47, 39, 75, 75, 15, 24, 91, 19, 69, 41, 94, 34, 60, 17, 59, 60, 35, 78, 46, 62, 11, 71, 11, 68, 22, 92, 69, 59, 15, 69, 78, 63, 38, 63, 11, 88, 61, 36, 15, 17, 69, 81, 29, 55, 55, 74, 34, 21, 72, 44, 47, 10, 45, 45, 98, 25, 24, 23, 53, 85, 27, 74, 77, 12, 63, 83, 32, 7, 95, 13, 39, 62, 81, 42, 48, 87, 94, 46, 59, 48, 77, 21, 27, 40, 67, 50, 86, 98, 21, 46, 49, 23, 2, 11, 21, 18, 98, 24, 15, 42, 24, 85, 14, 30, 47, 16, 28, 17, 93, 89, 37, 50, 81, 51, 14, 32, 50, 29, 45, 40, 90, 6, 95, 50, 45, 82, 39, 95, 13, 22, 46, 66, 68, 72, 57, 84, 36, 76, 89, 78, 41, 46, 76, 86, 52, 58, 62, 40, 85, 51, 97, 22, 92, 21, 65, 13, 98, 82, 17, 20, 96, 22, 89, 56, 49, 14, 60, 69, 54, 48, 15, 2, 20, 61, 45, 43, 98, 26, 55, 59, 100, 13, 27, 12, 86, 52, 64, 30, 87, 43, 57, 89, 10, 81, 74, 96, 0, 34, 56, 50, 13, 24, 80, 31, 42, 20, 43, 21, 99, 70, 62, 81, 55, 79, 86, 62, 65, 60, 5, 84, 66, 69, 3, 45, 98, 94, 7, 78, 26, 23, 47, 84, 9, 72, 22, 76, 54, 30, 62, 37, 39, 62, 46, 46, 79, 92, 9, 21, 56]
+last_save: 1012
+
+Gen:122
+TrainFitness:1.0
+TestFitness:0.5
+MaxGenLen:530
+Individual: def p():
+  def adf0(index):
+    if np.less(x[index],+032391.4019).all():
+      return True
+    else:
+      return False
+  def adf1(index):
+    if np.less(x[index],-412464.2266).all():
+      if np.less(sigmoid(x[index]),-716515.3805).all():
+        return True
+      else:
+        return True
+      return False
+    else:
+      if np.less(x[index],-072477.3872).all():
+        return True
+      else:
+        return True
+      return False
+  def adf2(index):
+    if np.less(x[index],+006722.7611).all():
+      return True
+    else:
+      return False
+  def adf3(index):
+    if np.equal(x[index],-355353.9050).all():
+      return False
+    else:
+      return True
+  def adf4(index):
+    if np.less(x[index],+959830.3181).all():
+      return True
+    else:
+      return False
+  def adf7(index):
+    if np.equal(x[index],-120724.7738).all():
+      if np.equal(rlog(x[index]),-249476.8462).all():
+        return True
+      else:
+        return False
+      return False
+    else:
+      if np.greater(x[index],-103044.4401).all():
+        return False
+      else:
+        return True
+      return True
+  return multiple_operation([adf0(0)*-716.709, adf1(1)*-282.051, adf2(2)*-518.898, adf3(3)*+025.946, adf4(4)*-672.047, adf7(7)*+379.731], [0, 1, 1, 0, 0], 131.204)
+result=p(); 1.0
+IndLenGenome:325
+IndGenome:[62, 84, 3, 63, 79, 39, 28, 4, 41, 90, 33, 92, 53, 69, 51, 14, 10, 21, 9, 90, 79, 99, 22, 35, 43, 37, 7, 79, 17, 84, 71, 22, 54, 6, 4, 52, 72, 56, 16, 51, 61, 34, 81, 64, 77, 52, 67, 11, 86, 35, 91, 25, 3, 38, 70, 45, 96, 18, 77, 99, 49, 45, 53, 33, 2, 40, 77, 42, 74, 47, 77, 13, 58, 87, 92, 40, 74, 47, 77, 13, 58, 87, 92, 40, 4, 70, 100, 6, 67, 52, 72, 57, 16, 51, 61, 34, 81, 77, 77, 38, 67, 33, 41, 95, 43, 25, 95, 43, 25, 3, 89, 70, 45, 40, 27, 16, 41, 61, 55, 39, 101, 18, 77, 99, 15, 69, 78, 63, 20, 63, 11, 88, 61, 38, 41, 88, 78, 18, 77, 99, 49, 45, 53, 41, 2, 40, 77, 42, 74, 47, 77, 13, 58, 87, 92, 40, 4, 21, 95, 79, 22, 94, 79, 34, 97, 26, 18, 94, 26, 62, 16, 61, 95, 77, 75, 67, 34, 7, 4, 41, 90, 33, 10, 74, 94, 24, 14, 10, 21, 13, 90, 16, 99, 22, 35, 43, 37, 7, 71, 56, 37, 20, 79, 17, 45, 71, 22, 58, 62, 40, 85, 71, 63, 23, 61, 35, 41, 98, 58, 29, 58, 19, 10, 23, 20, 32, 65, 39, 94, 26, 52, 55, 59, 56, 7, 12, 90, 34, 77, 88, 100, 65, 43, 77, 39, 67, 23, 91, 25, 88, 41, 1, 60, 64, 45, 1, 33, 21, 72, 30, 84, 68, 69, 12, 60, 70, 84, 1, 22, 6, 12, 13, 75, 67, 1, 69, 71, 53, 84, 93, 14, 54, 91, 80, 97, 17, 97, 15, 28, 92, 56, 26, 3, 92, 73, 53, 71, 0, 7, 17, 3, 14, 85, 81, 94, 79, 76, 50, 31, 44, 98, 15, 37, 42, 64, 21, 15, 71, 95, 73, 53, 84, 80, 63, 65]
+last_save: 1012
+
+Gen:122
+last_save: 1012
+Exit:TrueFalseFalse
+
+Gen:1
+TrainFitness:0.8333333333333334
+TestFitness:0.5
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.greater(sigmoid(x[index]),-466856.0951).all():
+      return False
+    else:
+      return False
+  def adf1(index):
+    if np.equal(rlog(x[index]),+620384.5553).all():
+      return False
+    else:
+      return True
+  def adf2(index):
+    if np.less(x[index],-779540.4327).all():
+      return False
+    else:
+      return False
+  def adf3(index):
+    if np.greater(x[index],+017003.4674).all():
+      return False
+    else:
+      return True
+  def adf4(index):
+    if np.less(x[index],-831717.4166).all():
+      return False
+    else:
+      return True
+  def adf7(index):
+    if np.less(np.cos(x[index]),-315886.7014).all():
+      return True
+    else:
+      return False
+  return multiple_operation([adf0(0)*+411.077, adf1(1)*+061.674, adf2(2)*+641.994, adf3(3)*+792.129, adf4(4)*-153.877, adf7(7)*-292.434], [0, 0, 0, 0, 0], 006.503)
+result=p(); 0.8333333333333334
+IndLenGenome:283
+IndGenome:[74, 20, 25, 10, 68, 96, 70, 67, 63, 45, 90, 60, 82, 67, 59, 68, 53, 13, 32, 87, 88, 16, 92, 80, 37, 20, 33, 67, 87, 35, 7, 84, 69, 33, 68, 41, 39, 77, 54, 46, 46, 21, 63, 42, 47, 82, 65, 57, 30, 32, 13, 97, 26, 30, 15, 52, 73, 15, 70, 91, 97, 83, 25, 22, 2, 60, 51, 49, 34, 24, 73, 21, 24, 67, 63, 68, 36, 46, 85, 13, 27, 99, 31, 57, 36, 69, 47, 1, 30, 79, 18, 97, 93, 54, 10, 74, 25, 30, 79, 78, 66, 87, 66, 90, 41, 37, 71, 43, 97, 59, 64, 84, 49, 64, 50, 81, 54, 14, 27, 44, 74, 27, 43, 33, 86, 29, 77, 71, 80, 77, 58, 72, 50, 37, 66, 61, 14, 41, 97, 64, 26, 18, 68, 44, 31, 81, 21, 72, 67, 73, 32, 64, 10, 77, 13, 80, 60, 65, 100, 20, 60, 72, 47, 27, 30, 37, 6, 40, 61, 44, 29, 60, 58, 18, 60, 13, 75, 65, 26, 46, 75, 46, 96, 62, 74, 23, 65, 55, 35, 22, 49, 100, 39, 8, 33, 53, 7, 77, 44, 0, 33, 93, 4, 28, 74, 6, 19, 6, 21, 50, 49, 34, 85, 39, 84, 34, 16, 94, 10, 65, 84, 20, 17, 55, 38, 75, 78, 68, 80, 24, 43, 62, 28, 15, 18, 53, 21, 74, 74, 9, 88, 25, 80, 90, 85, 60, 90, 30, 66, 75, 18, 55, 77, 12, 50, 22, 77, 38, 49, 73, 65, 98, 98, 15, 88, 31, 93, 84, 17, 81, 17, 3, 43, 82, 64, 23, 12, 95, 47, 75, 71, 83, 47]
+last_save: 1013
+
+Gen:4
+TrainFitness:1.0
+TestFitness:0.16666666666666666
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.equal(sigmoid(x[index]),-873991.9178).all():
+      return False
+    else:
+      return False
+  def adf1(index):
+    if np.greater(x[index],+619176.2094).all():
+      return False
+    else:
+      return True
+  def adf2(index):
+    if np.equal(x[index],+694082.4540).all():
+      return True
+    else:
+      return False
+  def adf3(index):
+    if np.less(x[index],+006090.6325).all():
+      return False
+    else:
+      return True
+  def adf4(index):
+    if np.equal(sigmoid(x[index]),+130865.0049).all():
+      if np.equal(x[index],-342247.7534).all():
+        return False
+      else:
+        return False
+      return False
+    else:
+      if np.equal(x[index],+201639.9608).all():
+        return True
+      else:
+        return False
+      return False
+  def adf7(index):
+    if np.less(np.sin(x[index]),-824192.1342).all():
+      return False
+    else:
+      return False
+  return multiple_operation([adf0(0)*+913.883, adf1(1)*+529.263, adf2(2)*+293.036, adf3(3)*+706.224, adf4(4)*-306.735, adf7(7)*+434.779], [1, 1, 1, 1, 1], 984.656)
+result=p(); 1.0
+IndLenGenome:244
+IndGenome:[67, 17, 66, 1, 17, 80, 27, 98, 61, 24, 48, 17, 43, 9, 49, 21, 69, 91, 47, 78, 57, 89, 72, 23, 45, 55, 57, 44, 35, 96, 41, 69, 61, 37, 16, 72, 30, 39, 74, 43, 66, 36, 79, 47, 15, 58, 80, 12, 26, 89, 14, 10, 98, 12, 24, 95, 34, 40, 16, 41, 53, 49, 19, 45, 94, 20, 12, 60, 40, 56, 40, 9, 20, 96, 33, 12, 65, 95, 82, 85, 32, 36, 77, 68, 39, 22, 36, 88, 41, 33, 60, 68, 26, 95, 40, 70, 24, 19, 71, 89, 91, 30, 75, 83, 73, 44, 42, 12, 94, 87, 57, 65, 23, 64, 63, 41, 93, 1, 2, 55, 11, 38, 21, 62, 10, 11, 56, 53, 49, 79, 26, 70, 8, 88, 59, 19, 45, 57, 91, 18, 78, 92, 93, 33, 78, 82, 34, 81, 59, 32, 31, 23, 84, 22, 17, 11, 18, 4, 80, 86, 20, 59, 31, 43, 78, 78, 93, 96, 62, 48, 15, 62, 49, 62, 16, 13, 0, 68, 97, 42, 19, 43, 90, 13, 6, 92, 20, 77, 47, 10, 46, 52, 12, 74, 28, 39, 67, 83, 70, 16, 57, 83, 5, 40, 84, 51, 24, 13, 54, 47, 47, 39, 41, 77, 85, 81, 91, 71, 2, 59, 98, 4, 6, 35, 46, 71, 24, 55, 81, 8, 1, 99, 90, 26, 27, 56, 82, 91, 15, 71, 45, 19, 67, 35]
+last_save: 1013
+
+Gen:4
+last_save: 1013
+Exit:TrueFalseFalse
+
+Gen:1
+TrainFitness:0.6666666666666666
+TestFitness:0.8333333333333334
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.greater(np.tanh(x[index]),+058752.0158).all():
+      return False
+    else:
+      return False
+  def adf1(index):
+    if np.less(psqrt(x[index]),+090284.0799).all():
+      return True
+    else:
+      return True
+  def adf2(index):
+    if np.less(x[index],+954435.6774).all():
+      return True
+    else:
+      return False
+  def adf3(index):
+    if np.greater(np.tanh(x[index]),+279273.5816).all():
+      return False
+    else:
+      return False
+  def adf4(index):
+    if np.greater(np.cos(x[index]),+624451.8795).all():
+      return False
+    else:
+      return False
+  def adf7(index):
+    if np.less(rlog(x[index]),-401587.0735).all():
+      return True
+    else:
+      return False
+  return multiple_operation([adf0(0)*+749.615, adf1(1)*-538.950, adf2(2)*-816.668, adf3(3)*-331.841, adf4(4)*-238.692, adf7(7)*+302.961], [0, 1, 1, 1, 1], 235.137)
+result=p(); 0.6666666666666666
+IndLenGenome:286
+IndGenome:[43, 55, 22, 49, 27, 17, 7, 9, 13, 19, 41, 62, 90, 33, 28, 42, 25, 60, 35, 51, 53, 45, 17, 7, 52, 25, 57, 90, 89, 14, 67, 87, 33, 76, 48, 45, 83, 44, 63, 24, 44, 14, 91, 85, 3, 20, 68, 4, 54, 50, 91, 40, 50, 15, 9, 51, 55, 7, 40, 13, 52, 92, 60, 76, 83, 88, 38, 61, 46, 37, 51, 40, 20, 44, 54, 48, 65, 79, 77, 77, 54, 96, 87, 26, 99, 10, 78, 37, 65, 47, 81, 97, 25, 70, 80, 59, 33, 14, 72, 46, 66, 47, 12, 20, 78, 74, 70, 80, 85, 69, 77, 94, 75, 21, 50, 39, 33, 81, 91, 69, 66, 94, 81, 50, 65, 26, 35, 88, 61, 43, 74, 15, 58, 74, 63, 85, 91, 11, 86, 85, 88, 82, 93, 90, 46, 66, 23, 66, 52, 71, 82, 27, 58, 44, 98, 19, 18, 93, 91, 76, 39, 55, 58, 76, 52, 16, 64, 90, 52, 87, 21, 35, 85, 55, 99, 71, 27, 66, 88, 31, 32, 41, 49, 99, 73, 94, 20, 13, 7, 60, 36, 93, 44, 10, 15, 18, 68, 41, 88, 63, 31, 46, 88, 66, 50, 62, 99, 92, 4, 17, 92, 41, 9, 59, 58, 84, 20, 56, 94, 92, 37, 0, 51, 63, 82, 70, 76, 41, 76, 57, 5, 52, 69, 66, 37, 22, 37, 67, 82, 57, 76, 61, 38, 77, 69, 62, 15, 70, 9, 89, 72, 54, 7, 28, 46, 32, 7, 29, 52, 7, 0, 58, 76, 50, 95, 91, 89, 35, 27, 100, 95, 79, 24, 45, 80, 32, 43, 98, 9, 76, 72, 3, 7, 14, 98, 62]
+last_save: 1014
+
+Gen:9
+TrainFitness:0.8333333333333334
+TestFitness:0.6666666666666666
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.equal(np.sin(x[index]),+868158.5753).all():
+      return True
+    else:
+      return False
+  def adf1(index):
+    if np.greater(x[index],+207203.9980).all():
+      return True
+    else:
+      return True
+  def adf2(index):
+    if np.less(psqrt(x[index]),+676638.8926).all():
+      return False
+    else:
+      return False
+  def adf3(index):
+    if np.less(sigmoid(x[index]),-397097.8189).all():
+      return True
+    else:
+      return True
+  def adf4(index):
+    if np.equal(np.cos(x[index]),+850444.9604).all():
+      return False
+    else:
+      return False
+  def adf7(index):
+    if np.equal(x[index],+510927.2235).all():
+      if np.greater(rlog(x[index]),-326216.7967).all():
+        return True
+      else:
+        return False
+      return False
+    else:
+      if np.less(x[index],+026924.1947).all():
+        return True
+      else:
+        return False
+      return True
+  return multiple_operation([adf0(0)*-963.530, adf1(1)*-170.882, adf2(2)*-748.388, adf3(3)*-414.322, adf4(4)*+743.533, adf7(7)*-765.797], [1, 0, 0, 1, 1], 105.500)
+result=p(); 0.8333333333333334
+IndLenGenome:354
+IndGenome:[40, 96, 53, 43, 20, 56, 96, 28, 2, 41, 18, 36, 68, 41, 65, 78, 5, 47, 95, 33, 98, 13, 81, 97, 69, 67, 68, 68, 41, 92, 30, 47, 82, 60, 33, 49, 69, 98, 60, 58, 6, 89, 71, 64, 54, 95, 50, 12, 65, 56, 67, 16, 26, 33, 68, 68, 99, 2, 16, 31, 61, 36, 59, 28, 68, 39, 9, 99, 44, 83, 19, 97, 50, 69, 57, 38, 61, 8, 79, 82, 28, 11, 55, 68, 4, 73, 20, 98, 99, 48, 55, 70, 44, 44, 84, 79, 66, 20, 94, 81, 11, 13, 14, 29, 59, 39, 22, 22, 10, 85, 21, 80, 49, 12, 27, 82, 12, 53, 65, 89, 90, 46, 40, 18, 9, 71, 3, 92, 66, 42, 11, 66, 7, 89, 56, 57, 26, 21, 31, 99, 79, 37, 9, 36, 65, 60, 22, 66, 19, 22, 64, 11, 69, 74, 77, 56, 39, 16, 18, 35, 70, 41, 43, 39, 66, 93, 15, 53, 90, 23, 69, 71, 61, 17, 70, 88, 48, 72, 38, 63, 11, 77, 34, 98, 23, 68, 78, 28, 41, 37, 64, 81, 14, 93, 92, 62, 36, 14, 21, 57, 84, 83, 95, 13, 83, 41, 25, 26, 67, 76, 75, 37, 69, 57, 49, 51, 82, 28, 55, 23, 60, 51, 50, 25, 25, 50, 30, 63, 41, 19, 14, 83, 36, 35, 24, 48, 78, 35, 16, 36, 98, 73, 95, 48, 45, 47, 39, 21, 75, 67, 21, 22, 39, 87, 85, 95, 43, 20, 52, 85, 98, 98, 21, 69, 55, 0, 76, 44, 7, 25, 17, 16, 80, 26, 20, 37, 43, 18, 41, 11, 52, 52, 29, 5, 54, 19, 15, 15, 91, 4, 30, 86, 39, 95, 83, 56, 5, 44, 25, 24, 76, 58, 18, 78, 22, 17, 78, 7, 20, 53, 73, 53, 91, 31, 25, 57, 24, 54, 15, 43, 65, 53, 21, 17, 1, 62, 48, 20, 56, 49, 62, 20, 19, 34, 19, 63, 91, 88, 64, 78, 63, 90, 52, 21, 83, 98, 5, 3, 15, 26, 27, 40, 10, 30]
+last_save: 1014
+
+Gen:102
+TrainFitness:1.0
+TestFitness:0.5
+MaxGenLen:515
+Individual: def p():
+  def adf0(index):
+    if np.equal(np.sin(x[index]),+868158.5753).all():
+      return True
+    else:
+      return False
+  def adf1(index):
+    if np.greater(x[index],+207203.9980).all():
+      return True
+    else:
+      return True
+  def adf2(index):
+    if np.less(psqrt(x[index]),+676638.8926).all():
+      return False
+    else:
+      return False
+  def adf3(index):
+    if np.less(sigmoid(x[index]),-397097.8189).all():
+      return True
+    else:
+      return True
+  def adf4(index):
+    if np.equal(np.cos(x[index]),+850444.9604).all():
+      return False
+    else:
+      return False
+  def adf7(index):
+    if np.equal(x[index],+510927.2235).all():
+      if np.greater(rlog(x[index]),-326216.7967).all():
+        return True
+      else:
+        return False
+      return False
+    else:
+      if np.less(x[index],+005109.2885).all():
+        return False
+      else:
+        return True
+      return False
+  return multiple_operation([adf0(0)*-420.074, adf1(1)*+302.785, adf2(2)*-831.797, adf3(3)*+207.203, adf4(4)*-786.934, adf7(7)*-856.766], [0, 0, 1, 0, 0], 169.889)
+result=p(); 1.0
+IndLenGenome:502
+IndGenome:[40, 96, 53, 43, 20, 56, 96, 28, 2, 41, 18, 36, 68, 41, 65, 78, 5, 47, 95, 33, 98, 13, 81, 97, 69, 67, 68, 68, 41, 92, 30, 47, 82, 60, 33, 49, 69, 98, 60, 58, 6, 89, 71, 64, 54, 95, 50, 12, 65, 56, 67, 16, 26, 33, 68, 68, 99, 92, 16, 31, 61, 36, 59, 28, 68, 39, 9, 99, 44, 83, 19, 97, 50, 69, 57, 38, 61, 8, 79, 82, 28, 11, 55, 68, 4, 73, 20, 98, 99, 48, 55, 70, 44, 44, 84, 79, 66, 20, 94, 81, 11, 13, 14, 29, 59, 39, 22, 22, 10, 85, 21, 80, 49, 12, 27, 82, 12, 53, 65, 89, 90, 46, 40, 18, 9, 71, 3, 92, 66, 42, 11, 66, 7, 89, 56, 57, 26, 21, 31, 99, 79, 37, 9, 36, 65, 60, 10, 85, 21, 80, 49, 12, 78, 68, 5, 19, 78, 19, 51, 92, 24, 15, 63, 24, 72, 30, 60, 47, 34, 49, 16, 54, 13, 70, 82, 57, 78, 5, 47, 95, 33, 98, 13, 81, 97, 69, 67, 68, 68, 41, 92, 30, 47, 82, 60, 33, 49, 69, 98, 77, 58, 6, 89, 23, 64, 54, 95, 50, 28, 65, 56, 67, 16, 26, 33, 68, 68, 99, 2, 16, 31, 61, 36, 59, 28, 68, 39, 9, 99, 9, 83, 19, 97, 50, 86, 57, 38, 61, 8, 79, 82, 28, 11, 55, 68, 4, 73, 98, 60, 58, 95, 89, 71, 41, 32, 10, 50, 12, 65, 56, 67, 16, 26, 33, 33, 49, 69, 98, 60, 58, 6, 89, 71, 64, 54, 56, 50, 12, 65, 56, 67, 16, 26, 33, 68, 68, 99, 2, 16, 31, 61, 36, 59, 28, 68, 39, 9, 99, 44, 83, 19, 97, 50, 69, 57, 38, 61, 8, 79, 82, 28, 11, 55, 68, 4, 73, 20, 98, 99, 48, 55, 70, 44, 44, 84, 26, 66, 20, 41, 81, 11, 13, 14, 29, 59, 39, 45, 47, 39, 21, 75, 92, 90, 88, 87, 21, 35, 85, 55, 99, 71, 27, 63, 31, 46, 88, 66, 50, 62, 99, 92, 4, 12, 53, 65, 36, 59, 28, 68, 39, 9, 99, 44, 83, 19, 97, 68, 61, 73, 41, 61, 17, 70, 88, 48, 72, 38, 35, 11, 77, 89, 65, 91, 82, 47, 66, 63, 27, 99, 19, 39, 89, 0, 78, 68, 5, 19, 78, 19, 51, 92, 24, 15, 63, 24, 72, 30, 60, 47, 34, 68, 16, 54, 35, 70, 41, 46, 39, 66, 93, 15, 53, 90, 23, 69, 71, 61, 17, 16, 88, 48, 72, 38, 63, 11, 77, 34, 98, 23, 68, 78, 28, 41, 37, 64, 7, 20, 53, 73, 53, 91, 31, 25, 57, 24, 54, 15, 43, 65, 53, 21, 17, 1, 62, 48, 20, 56, 49, 62, 20, 19, 34, 19, 63, 91, 88, 64, 78, 63, 90, 52, 21, 83, 98, 5, 3, 15, 26, 27, 40, 10, 30]
+last_save: 1014
+
+Gen:102
+last_save: 1014
+Exit:TrueFalseFalse
+
+Gen:1
+TrainFitness:1.0
+TestFitness:0.6666666666666666
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.greater(x[index],+592713.7773).all():
+      return True
+    else:
+      return True
+  def adf1(index):
+    if np.greater(x[index],+005900.7897).all():
+      return True
+    else:
+      return False
+  def adf2(index):
+    if np.less(x[index],+380246.5474).all():
+      return False
+    else:
+      return False
+  def adf3(index):
+    if np.less(x[index],-445006.8279).all():
+      return True
+    else:
+      return False
+  def adf4(index):
+    if np.less(x[index],-924861.1280).all():
+      return False
+    else:
+      return True
+  def adf7(index):
+    if np.less(psqrt(x[index]),-448801.0625).all():
+      return False
+    else:
+      return True
+  return multiple_operation([adf0(0)*+938.919, adf1(1)*-681.766, adf2(2)*-111.608, adf3(3)*+366.726, adf4(4)*-014.318, adf7(7)*-649.024], [0, 0, 0, 0, 1], 697.176)
+result=p(); 1.0
+IndLenGenome:280
+IndGenome:[65, 68, 13, 50, 91, 19, 6, 47, 21, 63, 24, 16, 89, 96, 34, 91, 91, 94, 22, 70, 85, 62, 44, 78, 94, 73, 23, 96, 48, 77, 2, 35, 12, 31, 76, 33, 57, 59, 51, 51, 73, 46, 66, 21, 46, 97, 70, 42, 49, 99, 95, 99, 19, 50, 96, 72, 56, 86, 41, 69, 52, 43, 21, 64, 47, 28, 4, 50, 54, 96, 63, 36, 90, 18, 65, 59, 26, 46, 47, 63, 17, 65, 49, 36, 79, 45, 51, 10, 51, 73, 64, 88, 83, 88, 83, 47, 54, 47, 87, 46, 24, 72, 17, 46, 95, 61, 85, 11, 44, 35, 22, 41, 21, 90, 72, 48, 38, 6, 64, 17, 20, 20, 14, 80, 70, 12, 16, 57, 94, 98, 91, 18, 98, 73, 51, 91, 21, 54, 4, 89, 94, 28, 76, 40, 33, 30, 28, 28, 67, 70, 70, 57, 41, 40, 86, 19, 55, 84, 97, 45, 59, 65, 73, 62, 84, 57, 79, 28, 30, 19, 26, 67, 52, 28, 90, 19, 91, 46, 44, 48, 40, 31, 81, 11, 54, 92, 75, 17, 47, 80, 33, 2, 4, 32, 32, 43, 6, 81, 49, 4, 54, 85, 6, 91, 26, 64, 38, 93, 66, 29, 80, 19, 32, 67, 20, 26, 90, 57, 86, 78, 32, 38, 26, 79, 40, 62, 24, 43, 24, 27, 23, 11, 99, 60, 69, 61, 71, 88, 7, 6, 2, 67, 6, 60, 80, 73, 24, 68, 55, 65, 70, 56, 90, 7, 49, 99, 36, 44, 77, 18, 82, 71, 63, 88, 36, 14, 96, 21, 51, 77, 21, 77, 27, 65, 68, 1, 23, 85, 4, 22]
+last_save: 1015
+
+Gen:1
+last_save: 1015
+Exit:TrueFalseFalse
+
+Gen:1
+TrainFitness:0.6666666666666666
+TestFitness:1.0
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.greater(x[index],+726590.1047).all():
+      return False
+    else:
+      return False
+  def adf1(index):
+    if np.equal(x[index],-640068.5763).all():
+      return False
+    else:
+      return False
+  def adf2(index):
+    if np.equal(sigmoid(x[index]),-874833.4035).all():
+      return False
+    else:
+      return True
+  def adf3(index):
+    if np.greater(x[index],+723171.4693).all():
+      return True
+    else:
+      return False
+  def adf4(index):
+    if np.equal(np.cos(x[index]),-134822.0046).all():
+      return True
+    else:
+      return True
+  def adf7(index):
+    if np.less(x[index],+803074.3083).all():
+      return True
+    else:
+      return True
+  return multiple_operation([adf0(0)*+037.744, adf1(1)*-926.268, adf2(2)*+332.412, adf3(3)*-713.584, adf4(4)*+595.297, adf7(7)*+407.800], [0, 0, 1, 1, 0], 890.203)
+result=p(); 0.6666666666666666
+IndLenGenome:282
+IndGenome:[57, 72, 7, 16, 86, 90, 53, 60, 61, 27, 58, 60, 84, 10, 13, 59, 43, 95, 17, 69, 65, 29, 27, 5, 32, 12, 90, 96, 50, 14, 62, 45, 87, 27, 32, 80, 43, 15, 60, 22, 91, 21, 47, 11, 49, 54, 98, 87, 40, 11, 41, 55, 68, 87, 65, 80, 77, 16, 50, 33, 88, 66, 16, 94, 69, 64, 83, 54, 38, 57, 90, 68, 90, 37, 20, 88, 67, 59, 32, 70, 67, 87, 71, 84, 93, 10, 62, 43, 63, 60, 58, 58, 10, 27, 56, 33, 93, 36, 59, 40, 34, 90, 56, 7, 64, 18, 46, 14, 81, 7, 73, 25, 51, 15, 22, 61, 53, 35, 97, 6, 42, 57, 35, 67, 49, 10, 83, 44, 65, 79, 40, 33, 74, 30, 24, 34, 58, 46, 63, 73, 30, 63, 86, 36, 38, 15, 75, 23, 56, 12, 42, 39, 32, 24, 48, 72, 47, 72, 76, 31, 36, 29, 12, 31, 28, 52, 83, 66, 38, 34, 94, 20, 69, 34, 60, 54, 27, 97, 10, 77, 89, 83, 37, 93, 18, 90, 28, 14, 81, 93, 83, 19, 64, 40, 43, 3, 92, 85, 41, 68, 84, 28, 49, 45, 1, 20, 2, 12, 92, 93, 56, 13, 61, 95, 95, 72, 7, 81, 22, 32, 94, 78, 75, 75, 22, 7, 32, 85, 44, 42, 94, 78, 25, 55, 3, 6, 74, 53, 23, 24, 79, 45, 96, 59, 16, 60, 73, 14, 53, 18, 5, 26, 26, 17, 94, 86, 19, 28, 89, 99, 76, 96, 58, 89, 3, 19, 59, 62, 62, 38, 38, 70, 20, 64, 96, 51, 38, 14, 27, 98, 97, 97]
+last_save: 1016
+
+Gen:18
+TrainFitness:0.8333333333333334
+TestFitness:0.8333333333333334
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.greater(x[index],-153984.8893).all():
+      return False
+    else:
+      return False
+  def adf1(index):
+    if np.greater(x[index],-315836.0069).all():
+      return True
+    else:
+      return False
+  def adf2(index):
+    if np.less(x[index],-915197.9214).all():
+      return False
+    else:
+      return True
+  def adf3(index):
+    if np.less(x[index],+009540.5239).all():
+      return False
+    else:
+      return True
+  def adf4(index):
+    if np.less(np.tanh(x[index]),-192868.1165).all():
+      if np.greater(np.tanh(x[index]),+375899.6191).all():
+        if np.greater(x[index],-165985.8652).all():
+          return True
+        else:
+          return False
+        return True
+      else:
+        if np.greater(np.sin(x[index]),+168661.5123).all():
+          return True
+        else:
+          return False
+        return False
+      return False
+    else:
+      if np.greater(sigmoid(x[index]),-309066.1733).all():
+        if np.equal(x[index],+539799.7903).all():
+          return True
+        else:
+          return True
+        return False
+      else:
+        if np.equal(x[index],+166275.3633).all():
+          if np.greater(x[index],-284059.4847).all():
+            return False
+          else:
+            return False
+          return False
+        else:
+          if np.greater(np.sin(x[index]),-577579.1516).all():
+            return False
+          else:
+            return False
+          return False
+        return False
+      return True
+  def adf7(index):
+    if np.equal(np.tanh(x[index]),-556073.4327).all():
+      return True
+    else:
+      return True
+  return multiple_operation([adf0(0)*+349.849, adf1(1)*+151.518, adf2(2)*+448.527, adf3(3)*+710.463, adf4(4)*-915.513, adf7(7)*+159.481], [1, 1, 1, 1, 1], 509.282)
+result=p(); 0.8333333333333334
+IndLenGenome:432
+IndGenome:[63, 98, 53, 89, 81, 39, 2, 45, 3, 51, 85, 33, 79, 38, 94, 18, 48, 99, 73, 21, 35, 97, 47, 69, 45, 71, 39, 95, 63, 81, 65, 78, 63, 36, 30, 40, 56, 19, 46, 23, 57, 45, 58, 79, 39, 83, 31, 79, 41, 45, 21, 19, 67, 29, 22, 81, 64, 53, 58, 69, 35, 64, 49, 20, 32, 71, 60, 70, 29, 95, 14, 60, 65, 22, 63, 39, 89, 94, 80, 96, 63, 55, 74, 92, 38, 17, 55, 31, 19, 82, 88, 86, 18, 41, 11, 26, 95, 42, 79, 18, 54, 38, 59, 92, 46, 23, 57, 45, 58, 79, 39, 96, 31, 79, 41, 45, 21, 19, 67, 29, 22, 81, 16, 45, 39, 68, 25, 18, 66, 55, 42, 58, 57, 80, 53, 30, 84, 96, 15, 86, 75, 41, 46, 58, 16, 46, 81, 5, 91, 2, 43, 28, 61, 99, 77, 2, 28, 78, 84, 39, 68, 55, 99, 63, 80, 19, 30, 36, 66, 61, 27, 93, 3, 9, 92, 1, 86, 68, 61, 15, 33, 9, 77, 29, 19, 87, 89, 20, 33, 36, 56, 81, 16, 87, 98, 53, 12, 56, 69, 91, 36, 16, 42, 67, 15, 33, 16, 43, 33, 45, 87, 93, 15, 59, 30, 12, 98, 94, 70, 35, 59, 94, 18, 54, 47, 33, 19, 77, 99, 9, 12, 72, 59, 83, 73, 25, 97, 47, 35, 17, 79, 61, 55, 41, 36, 33, 57, 77, 85, 80, 88, 59, 92, 60, 26, 67, 15, 33, 15, 35, 6, 40, 67, 33, 54, 53, 62, 47, 52, 84, 87, 95, 53, 86, 41, 83, 54, 99, 38, 34, 99, 55, 48, 13, 71, 85, 61, 75, 61, 78, 60, 70, 29, 94, 14, 8, 65, 22, 27, 68, 94, 45, 7, 41, 10, 14, 86, 93, 53, 79, 60, 99, 11, 5, 35, 41, 73, 74, 98, 26, 1, 95, 49, 24, 28, 71, 39, 93, 97, 29, 47, 95, 94, 15, 50, 49, 32, 68, 42, 33, 33, 47, 25, 23, 22, 69, 25, 88, 22, 32, 50, 39, 49, 12, 16, 67, 27, 32, 27, 31, 50, 27, 29, 11, 92, 50, 67, 46, 81, 35, 68, 88, 36, 46, 4, 21, 88, 88, 72, 14, 20, 55, 98, 34, 62, 18, 42, 72, 37, 49, 94, 40, 25, 62, 65, 71, 38, 85, 90, 19, 66, 100, 21, 53, 76, 32, 31, 28, 47, 28, 88, 3, 46, 0, 85, 33, 10, 37, 58, 29, 55, 53, 51, 72, 81, 18, 100, 92, 57, 10, 39, 60]
+last_save: 1016
+
+Gen:29
+TrainFitness:1.0
+TestFitness:0.8333333333333334
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.greater(x[index],-153984.8893).all():
+      return False
+    else:
+      return False
+  def adf1(index):
+    if np.greater(x[index],-315836.0069).all():
+      return True
+    else:
+      return False
+  def adf2(index):
+    if np.less(x[index],-915197.9214).all():
+      return False
+    else:
+      return True
+  def adf3(index):
+    if np.less(x[index],+005192.8681).all():
+      return False
+    else:
+      return True
+  def adf4(index):
+    if np.greater(np.tanh(x[index]),+375899.6691).all():
+      if np.greater(x[index],+696375.8983).all():
+        return False
+      else:
+        return False
+      return False
+    else:
+      if np.equal(x[index],-151637.1508).all():
+        return False
+      else:
+        return True
+      return True
+  def adf7(index):
+    if np.greater(x[index],+073210.5763).all():
+      return False
+    else:
+      return False
+  return multiple_operation([adf0(0)*-551.348, adf1(1)*-948.193, adf2(2)*-545.092, adf3(3)*+375.328, adf4(4)*+209.982, adf7(7)*-510.791], [0, 1, 1, 1, 1], 862.877)
+result=p(); 1.0
+IndLenGenome:335
+IndGenome:[63, 98, 53, 89, 81, 39, 2, 45, 3, 51, 85, 33, 79, 38, 94, 18, 48, 99, 73, 21, 35, 97, 47, 69, 45, 71, 39, 95, 63, 81, 65, 78, 63, 36, 30, 40, 56, 19, 46, 23, 57, 45, 58, 79, 39, 83, 31, 79, 41, 45, 21, 19, 67, 29, 22, 81, 64, 53, 58, 69, 35, 64, 49, 20, 32, 71, 60, 70, 55, 31, 19, 82, 88, 86, 18, 41, 11, 26, 95, 42, 79, 18, 54, 38, 59, 92, 46, 23, 57, 45, 58, 79, 39, 96, 16, 79, 41, 29, 78, 63, 36, 30, 40, 56, 19, 46, 23, 57, 45, 58, 79, 38, 83, 31, 79, 41, 45, 47, 19, 11, 65, 79, 61, 55, 21, 36, 33, 57, 41, 85, 80, 88, 59, 92, 60, 44, 13, 15, 33, 15, 56, 6, 40, 67, 33, 42, 61, 50, 35, 27, 6, 43, 31, 93, 53, 79, 60, 99, 11, 5, 35, 41, 73, 74, 98, 26, 1, 95, 49, 24, 28, 71, 39, 93, 97, 29, 47, 95, 94, 15, 50, 49, 32, 69, 42, 33, 33, 47, 25, 23, 22, 78, 25, 88, 22, 32, 50, 39, 49, 58, 52, 67, 27, 32, 55, 31, 50, 27, 29, 11, 92, 50, 67, 71, 81, 35, 68, 88, 36, 32, 68, 87, 57, 54, 96, 95, 63, 90, 37, 95, 67, 64, 76, 86, 25, 43, 84, 72, 69, 26, 17, 16, 22, 97, 69, 80, 9, 19, 19, 69, 23, 13, 24, 20, 44, 71, 53, 5, 45, 56, 28, 22, 24, 74, 76, 40, 8, 78, 22, 33, 24, 25, 73, 46, 36, 29, 87, 61, 69, 36, 40, 53, 39, 76, 28, 36, 30, 100, 80, 87, 22, 84, 33, 86, 4, 76, 44, 36, 40, 7, 97, 5, 89, 83, 20, 13, 15, 19, 57, 25, 57, 39, 29, 1, 82, 13, 24, 4, 63, 58, 55, 19, 1, 43, 84, 77, 98, 65, 42, 29, 8, 6, 95, 82, 66]
+last_save: 1016
+
+Gen:29
+last_save: 1016
+Exit:TrueFalseFalse
+
+Gen:1
+TrainFitness:0.8333333333333334
+TestFitness:0.5
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.equal(psqrt(x[index]),+888311.8920).all():
+      return False
+    else:
+      return True
+  def adf1(index):
+    if np.greater(x[index],+061646.4595).all():
+      return True
+    else:
+      return False
+  def adf2(index):
+    if np.equal(sigmoid(x[index]),-492459.7904).all():
+      return False
+    else:
+      return False
+  def adf3(index):
+    if np.equal(rlog(x[index]),+944801.1570).all():
+      return False
+    else:
+      return False
+  def adf4(index):
+    if np.equal(np.cos(x[index]),+265625.3825).all():
+      return False
+    else:
+      return True
+  def adf7(index):
+    if np.less(x[index],+013358.8064).all():
+      return True
+    else:
+      return False
+  return multiple_operation([adf0(0)*+932.984, adf1(1)*+506.060, adf2(2)*+730.103, adf3(3)*+448.231, adf4(4)*+390.498, adf7(7)*-286.548], [1, 0, 1, 0, 1], 375.464)
+result=p(); 0.8333333333333334
+IndLenGenome:285
+IndGenome:[30, 95, 7, 82, 75, 12, 91, 19, 54, 96, 65, 39, 10, 82, 50, 36, 22, 15, 25, 5, 16, 71, 57, 23, 33, 69, 71, 42, 49, 47, 13, 63, 61, 31, 78, 11, 20, 18, 78, 6, 68, 97, 33, 32, 53, 74, 91, 31, 17, 85, 48, 93, 38, 80, 86, 85, 38, 41, 94, 30, 79, 31, 25, 48, 64, 10, 12, 43, 57, 44, 66, 81, 39, 29, 75, 20, 58, 46, 36, 74, 69, 92, 77, 44, 11, 13, 68, 34, 66, 20, 29, 88, 12, 36, 15, 14, 28, 56, 74, 15, 65, 89, 58, 25, 32, 13, 12, 66, 18, 18, 69, 94, 57, 35, 38, 72, 26, 72, 24, 76, 51, 42, 40, 98, 14, 99, 94, 52, 20, 79, 59, 53, 91, 17, 22, 92, 54, 95, 30, 67, 15, 80, 19, 84, 31, 12, 61, 35, 20, 60, 84, 58, 86, 63, 24, 34, 73, 53, 14, 18, 77, 15, 69, 33, 46, 29, 38, 63, 28, 82, 10, 60, 71, 74, 70, 87, 21, 45, 49, 78, 65, 80, 23, 66, 53, 36, 45, 83, 74, 70, 30, 61, 47, 9, 15, 99, 88, 41, 31, 4, 41, 31, 22, 68, 72, 18, 2, 80, 92, 0, 100, 13, 61, 84, 100, 56, 86, 25, 80, 47, 0, 59, 69, 62, 41, 38, 73, 75, 87, 92, 71, 22, 69, 33, 57, 70, 70, 41, 50, 23, 53, 62, 83, 68, 98, 62, 43, 51, 89, 90, 19, 32, 20, 66, 33, 24, 32, 11, 45, 77, 9, 49, 93, 27, 2, 78, 78, 8, 40, 31, 92, 50, 74, 19, 72, 61, 73, 91, 6, 34, 9, 100, 40, 41, 82]
+last_save: 1017
+
+Gen:111
+TrainFitness:1.0
+TestFitness:0.16666666666666666
+MaxGenLen:530
+Individual: def p():
+  def adf0(index):
+    if np.greater(np.sin(x[index]),-587919.5505).all():
+      return True
+    else:
+      return False
+  def adf1(index):
+    if np.greater(sigmoid(x[index]),+330417.1454).all():
+      return False
+    else:
+      return False
+  def adf2(index):
+    if np.greater(np.cos(x[index]),-386751.0383).all():
+      return True
+    else:
+      return True
+  def adf3(index):
+    if np.greater(rlog(x[index]),+755455.5249).all():
+      return False
+    else:
+      return True
+  def adf4(index):
+    if np.greater(np.tanh(x[index]),+119478.3335).all():
+      return False
+    else:
+      return True
+  def adf7(index):
+    if np.less(x[index],+004790.1625).all():
+      if np.greater(x[index],+425210.9935).all():
+        return True
+      else:
+        return False
+      return True
+    else:
+      if np.less(x[index],+394247.7353).all():
+        return True
+      else:
+        return True
+      return True
+  return multiple_operation([adf0(0)*+201.805, adf1(1)*-821.507, adf2(2)*+775.217, adf3(3)*-717.034, adf4(4)*+122.092, adf7(7)*+719.728], [0, 0, 0, 1, 1], 396.184)
+result=p(); 1.0
+IndLenGenome:365
+IndGenome:[32, 89, 2, 39, 36, 20, 42, 34, 45, 73, 85, 28, 77, 99, 81, 79, 15, 25, 20, 55, 70, 79, 45, 43, 48, 38, 75, 54, 54, 90, 63, 73, 60, 54, 61, 57, 71, 64, 25, 4, 59, 93, 73, 61, 21, 8, 67, 35, 29, 50, 83, 18, 16, 47, 35, 91, 80, 53, 38, 13, 64, 46, 15, 43, 27, 46, 40, 63, 98, 70, 27, 95, 15, 44, 55, 35, 45, 22, 74, 89, 17, 56, 96, 15, 93, 16, 26, 55, 34, 86, 11, 51, 59, 74, 67, 18, 83, 33, 93, 55, 59, 32, 74, 58, 98, 70, 23, 21, 66, 30, 30, 50, 94, 77, 69, 80, 21, 76, 62, 35, 87, 54, 57, 91, 68, 89, 44, 12, 85, 92, 91, 20, 9, 19, 33, 95, 98, 95, 48, 59, 76, 85, 24, 90, 51, 3, 89, 54, 22, 64, 67, 47, 23, 95, 33, 60, 76, 12, 43, 11, 61, 10, 59, 82, 20, 71, 68, 90, 45, 56, 51, 21, 38, 12, 21, 25, 70, 77, 41, 88, 88, 17, 47, 15, 32, 11, 27, 15, 29, 60, 57, 11, 87, 30, 43, 64, 65, 26, 53, 81, 12, 42, 10, 69, 2, 53, 60, 39, 27, 21, 49, 17, 52, 38, 68, 98, 90, 70, 47, 61, 32, 43, 39, 76, 91, 28, 74, 32, 71, 45, 60, 21, 23, 76, 88, 28, 65, 42, 61, 34, 78, 28, 17, 20, 82, 41, 50, 57, 73, 78, 15, 62, 53, 39, 62, 63, 81, 84, 65, 57, 96, 18, 36, 27, 62, 62, 31, 77, 41, 11, 56, 94, 70, 96, 74, 90, 83, 91, 2, 82, 22, 62, 39, 24, 21, 4, 65, 79, 59, 5, 50, 56, 52, 81, 50, 62, 42, 38, 83, 60, 24, 2, 96, 28, 71, 82, 66, 9, 80, 63, 24, 6, 76, 45, 42, 43, 87, 30, 15, 20, 1, 57, 6, 30, 22, 35, 50, 20, 53, 66, 12, 14, 95, 7, 2, 38, 29, 59, 4, 43, 96, 35, 88, 96, 0, 77, 58, 30, 43, 31, 92, 54, 18, 24, 61, 47, 36, 3, 18, 58, 78, 45, 38, 65, 92]
+last_save: 1017
+
+Gen:111
+last_save: 1017
+Exit:TrueFalseFalse
+
+Gen:1
+TrainFitness:0.6666666666666666
+TestFitness:0.5
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.greater(x[index],+558219.7385).all():
+      return False
+    else:
+      return True
+  def adf1(index):
+    if np.equal(np.tanh(x[index]),-358013.4073).all():
+      return True
+    else:
+      return False
+  def adf2(index):
+    if np.equal(np.tanh(x[index]),+669137.7097).all():
+      return True
+    else:
+      return True
+  def adf3(index):
+    if np.equal(rlog(x[index]),+437246.7156).all():
+      return False
+    else:
+      return False
+  def adf4(index):
+    if np.less(x[index],+736493.1946).all():
+      return True
+    else:
+      return False
+  def adf7(index):
+    if np.equal(np.tanh(x[index]),-195282.4643).all():
+      return True
+    else:
+      return False
+  return multiple_operation([adf0(0)*-566.735, adf1(1)*-936.077, adf2(2)*-118.218, adf3(3)*+531.558, adf4(4)*-598.053, adf7(7)*-363.906], [1, 0, 0, 1, 1], 748.972)
+result=p(); 0.6666666666666666
+IndLenGenome:285
+IndGenome:[16, 41, 56, 78, 24, 88, 7, 55, 62, 60, 61, 89, 18, 17, 30, 39, 28, 4, 57, 27, 25, 99, 81, 27, 13, 51, 49, 88, 4, 62, 32, 43, 86, 79, 54, 78, 83, 18, 77, 95, 70, 94, 88, 44, 21, 57, 63, 25, 63, 78, 39, 32, 91, 18, 8, 34, 31, 96, 25, 15, 33, 57, 89, 98, 83, 2, 3, 7, 55, 22, 46, 19, 67, 95, 13, 12, 62, 29, 41, 73, 13, 85, 46, 84, 68, 31, 16, 38, 55, 20, 74, 97, 23, 97, 16, 99, 98, 38, 89, 69, 23, 25, 75, 17, 70, 80, 5, 43, 14, 80, 70, 35, 50, 15, 37, 98, 97, 33, 86, 57, 57, 31, 21, 78, 78, 75, 32, 33, 12, 95, 28, 51, 19, 88, 91, 81, 62, 37, 94, 23, 53, 91, 69, 24, 94, 80, 33, 76, 21, 49, 71, 23, 73, 73, 81, 27, 13, 57, 71, 19, 69, 35, 41, 48, 46, 56, 50, 98, 27, 78, 65, 15, 82, 96, 67, 89, 76, 14, 34, 12, 24, 36, 82, 91, 64, 23, 39, 87, 58, 25, 63, 6, 4, 90, 58, 63, 6, 76, 64, 46, 82, 42, 11, 33, 15, 3, 72, 0, 93, 96, 2, 78, 39, 38, 93, 29, 24, 4, 44, 90, 79, 65, 71, 4, 53, 71, 1, 95, 46, 79, 37, 61, 19, 81, 35, 43, 3, 98, 25, 52, 69, 11, 26, 77, 52, 94, 48, 54, 32, 2, 22, 75, 10, 43, 48, 21, 66, 48, 96, 99, 25, 45, 82, 89, 62, 1, 40, 32, 61, 68, 44, 60, 13, 24, 43, 67, 91, 58, 87, 7, 3, 74, 37, 6, 94]
+last_save: 1018
+
+Gen:12
+TrainFitness:0.8333333333333334
+TestFitness:0.3333333333333333
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.less(np.cos(x[index]),-746988.5393).all():
+      return False
+    else:
+      return False
+  def adf1(index):
+    if np.less(x[index],+035087.5091).all():
+      return True
+    else:
+      return False
+  def adf2(index):
+    if np.less(x[index],-795152.9925).all():
+      return True
+    else:
+      return True
+  def adf3(index):
+    if np.less(sigmoid(x[index]),-189618.3513).all():
+      if np.greater(x[index],+327218.6463).all():
+        return True
+      else:
+        return True
+      return True
+    else:
+      if np.less(x[index],+925372.2524).all():
+        if np.less(np.tanh(x[index]),-396593.3861).all():
+          if np.equal(np.sin(x[index]),+463926.8535).all():
+            if np.less(sigmoid(x[index]),-684862.6898).all():
+              return True
+            else:
+              return False
+            return True
+          else:
+            if np.greater(np.sin(x[index]),+709847.7591).all():
+              return False
+            else:
+              return False
+            return False
+          return False
+        else:
+          if np.equal(np.cos(x[index]),-838750.4841).all():
+            if np.greater(x[index],+218841.6553).all():
+              return False
+            else:
+              return False
+            return True
+          else:
+            if np.equal(x[index],-697532.2913).all():
+              return False
+            else:
+              return False
+            return True
+          return True
+        return True
+      else:
+        if np.less(np.cos(x[index]),+376988.9935).all():
+          return False
+        else:
+          return False
+        return True
+      return True
+  def adf4(index):
+    if np.equal(rlog(x[index]),+787367.7118).all():
+      return True
+    else:
+      return False
+  def adf7(index):
+    if np.greater(x[index],-811274.3319).all():
+      return True
+    else:
+      return True
+  return multiple_operation([adf0(0)*-133.317, adf1(1)*-995.186, adf2(2)*+785.526, adf3(3)*-442.462, adf4(4)*+978.536, adf7(7)*+366.462], [1, 1, 1, 1, 0], 362.898)
+result=p(); 0.8333333333333334
+IndLenGenome:450
+IndGenome:[57, 60, 24, 79, 97, 34, 73, 59, 37, 52, 37, 34, 56, 69, 78, 18, 45, 53, 69, 13, 55, 23, 60, 17, 73, 93, 82, 18, 12, 30, 23, 55, 20, 8, 77, 15, 30, 19, 41, 32, 59, 20, 75, 52, 57, 61, 63, 58, 67, 19, 95, 21, 25, 32, 39, 89, 42, 75, 58, 30, 22, 62, 87, 46, 72, 81, 16, 29, 50, 21, 58, 59, 6, 21, 48, 43, 55, 21, 53, 15, 42, 47, 14, 70, 57, 63, 52, 37, 52, 31, 58, 66, 94, 76, 43, 12, 18, 16, 74, 94, 49, 45, 75, 66, 45, 49, 42, 45, 43, 7, 42, 22, 35, 52, 24, 24, 20, 43, 94, 80, 45, 37, 31, 3, 29, 66, 5, 29, 53, 13, 18, 46, 61, 28, 44, 38, 88, 84, 3, 30, 96, 84, 96, 83, 39, 52, 26, 78, 95, 83, 35, 11, 49, 34, 33, 75, 11, 4, 16, 78, 44, 98, 6, 42, 16, 48, 39, 68, 92, 41, 54, 21, 99, 14, 60, 61, 8, 18, 17, 30, 39, 28, 4, 57, 27, 25, 99, 81, 27, 13, 51, 49, 88, 4, 62, 32, 43, 86, 79, 54, 78, 83, 18, 77, 95, 70, 94, 88, 44, 21, 57, 63, 25, 63, 78, 39, 32, 91, 18, 8, 34, 31, 96, 25, 15, 33, 57, 89, 98, 83, 2, 3, 7, 55, 22, 46, 19, 67, 95, 13, 12, 62, 29, 41, 73, 13, 85, 46, 84, 68, 31, 16, 38, 55, 20, 74, 97, 23, 97, 16, 99, 98, 38, 89, 69, 23, 25, 75, 17, 70, 80, 5, 43, 14, 80, 70, 35, 50, 15, 37, 98, 97, 33, 86, 57, 57, 31, 21, 78, 78, 75, 32, 33, 12, 95, 28, 51, 19, 88, 91, 81, 62, 37, 94, 23, 53, 91, 69, 24, 94, 80, 33, 76, 21, 49, 71, 23, 73, 73, 81, 27, 13, 57, 71, 19, 69, 35, 41, 48, 46, 56, 50, 98, 27, 78, 65, 15, 82, 96, 67, 89, 76, 14, 34, 12, 24, 36, 82, 91, 64, 23, 39, 87, 58, 25, 63, 6, 4, 90, 58, 63, 6, 76, 64, 46, 82, 42, 11, 33, 41, 3, 72, 0, 93, 96, 2, 78, 39, 38, 93, 29, 24, 4, 44, 90, 79, 65, 71, 4, 53, 71, 1, 95, 46, 79, 37, 61, 19, 81, 35, 43, 3, 98, 25, 52, 69, 11, 26, 77, 52, 94, 48, 54, 32, 2, 22, 75, 10, 43, 48, 21, 66, 48, 96, 99, 25, 45, 82, 89, 62, 1, 40, 32, 61, 68, 44, 60, 13, 24, 43, 67, 91, 58, 87, 7, 3, 74, 37, 6, 94]
+last_save: 1018
+
+Gen:31
+TrainFitness:1.0
+TestFitness:0.0
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.less(np.cos(x[index]),-746988.5393).all():
+      return False
+    else:
+      return False
+  def adf1(index):
+    if np.less(x[index],+005087.5391).all():
+      return True
+    else:
+      return False
+  def adf2(index):
+    if np.less(x[index],-795152.9925).all():
+      return True
+    else:
+      return True
+  def adf3(index):
+    if np.less(sigmoid(x[index]),-189618.3513).all():
+      if np.less(x[index],+327218.6463).all():
+        return True
+      else:
+        return True
+      return True
+    else:
+      if np.less(x[index],+925372.2524).all():
+        if np.less(np.tanh(x[index]),-396593.3861).all():
+          if np.equal(np.sin(x[index]),+463926.8535).all():
+            if np.less(sigmoid(x[index]),-684862.6898).all():
+              return True
+            else:
+              return False
+            return True
+          else:
+            if np.greater(np.sin(x[index]),+709847.7591).all():
+              return False
+            else:
+              return False
+            return False
+          return False
+        else:
+          if np.equal(np.cos(x[index]),-838750.4841).all():
+            if np.greater(x[index],+218841.6553).all():
+              return False
+            else:
+              return False
+            return True
+          else:
+            if np.equal(x[index],-697532.2913).all():
+              return False
+            else:
+              return False
+            return True
+          return True
+        return True
+      else:
+        if np.less(np.cos(x[index]),+376988.9955).all():
+          return False
+        else:
+          return False
+        return True
+      return True
+  def adf4(index):
+    if np.equal(rlog(x[index]),+787367.7118).all():
+      return True
+    else:
+      return False
+  def adf7(index):
+    if np.greater(x[index],-811274.3319).all():
+      return True
+    else:
+      return True
+  return multiple_operation([adf0(0)*-133.317, adf1(1)*-995.186, adf2(2)*+785.526, adf3(3)*-442.462, adf4(4)*+978.536, adf7(7)*+366.402], [1, 1, 1, 1, 0], 362.898)
+result=p(); 1.0
+IndLenGenome:450
+IndGenome:[57, 60, 24, 79, 97, 34, 73, 59, 37, 52, 37, 34, 56, 69, 78, 18, 45, 53, 69, 13, 55, 23, 60, 17, 73, 93, 82, 18, 12, 30, 10, 55, 20, 8, 77, 15, 43, 19, 41, 32, 59, 20, 75, 52, 57, 61, 63, 58, 67, 19, 95, 21, 25, 32, 39, 89, 42, 75, 58, 30, 22, 62, 87, 46, 72, 81, 16, 29, 50, 21, 58, 59, 6, 21, 48, 43, 55, 21, 53, 15, 22, 47, 14, 70, 57, 63, 52, 37, 52, 31, 58, 66, 94, 76, 43, 12, 18, 16, 74, 94, 49, 45, 75, 66, 45, 49, 42, 45, 43, 7, 42, 22, 35, 52, 24, 24, 20, 43, 94, 80, 45, 37, 31, 3, 29, 66, 5, 29, 53, 13, 18, 46, 61, 28, 44, 38, 88, 84, 3, 30, 96, 84, 96, 83, 39, 52, 26, 78, 95, 83, 35, 11, 49, 34, 33, 75, 11, 4, 16, 78, 44, 98, 6, 42, 16, 48, 39, 68, 92, 41, 54, 21, 99, 14, 60, 61, 8, 18, 17, 30, 39, 28, 4, 57, 27, 25, 99, 81, 27, 13, 51, 49, 88, 4, 62, 32, 43, 86, 79, 54, 78, 83, 18, 77, 95, 70, 94, 88, 44, 21, 57, 63, 25, 63, 78, 39, 32, 91, 18, 8, 34, 31, 96, 25, 15, 33, 57, 89, 98, 83, 2, 3, 7, 55, 22, 46, 19, 67, 95, 13, 12, 62, 29, 41, 73, 13, 85, 46, 84, 68, 31, 16, 38, 55, 20, 74, 97, 23, 77, 16, 99, 98, 38, 89, 69, 15, 25, 75, 17, 70, 80, 5, 43, 14, 80, 70, 35, 50, 15, 37, 98, 97, 33, 86, 57, 57, 31, 21, 78, 78, 75, 32, 33, 12, 95, 28, 51, 19, 88, 91, 81, 62, 37, 94, 23, 53, 91, 69, 24, 94, 80, 33, 76, 21, 49, 71, 23, 73, 73, 81, 27, 13, 57, 71, 19, 69, 35, 41, 48, 46, 56, 50, 98, 27, 78, 65, 15, 82, 96, 67, 89, 76, 14, 34, 12, 24, 36, 82, 91, 64, 23, 39, 87, 58, 25, 63, 6, 4, 90, 58, 63, 6, 76, 64, 60, 82, 42, 11, 33, 41, 3, 72, 0, 93, 96, 2, 78, 39, 38, 93, 29, 24, 4, 44, 90, 79, 65, 71, 4, 53, 71, 1, 95, 46, 79, 37, 61, 19, 81, 35, 43, 3, 98, 25, 52, 69, 11, 26, 77, 52, 94, 48, 54, 32, 2, 22, 75, 10, 43, 48, 21, 66, 48, 96, 99, 25, 45, 82, 89, 62, 1, 40, 32, 61, 68, 44, 60, 13, 24, 43, 67, 91, 58, 87, 7, 3, 74, 37, 6, 94]
+last_save: 1018
+
+Gen:31
+last_save: 1018
+Exit:TrueFalseFalse
+
+Gen:1
+TrainFitness:0.6666666666666666
+TestFitness:0.16666666666666666
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.less(np.cos(x[index]),-488263.1455).all():
+      return True
+    else:
+      return False
+  def adf1(index):
+    if np.greater(sigmoid(x[index]),+605104.5591).all():
+      return True
+    else:
+      return True
+  def adf2(index):
+    if np.equal(np.cos(x[index]),-442829.9990).all():
+      return False
+    else:
+      return True
+  def adf3(index):
+    if np.greater(x[index],-876946.8313).all():
+      return False
+    else:
+      return True
+  def adf4(index):
+    if np.equal(x[index],+777276.2673).all():
+      return False
+    else:
+      return False
+  def adf7(index):
+    if np.less(sigmoid(x[index]),-249669.2454).all():
+      return True
+    else:
+      return False
+  return multiple_operation([adf0(0)*+032.242, adf1(1)*+638.256, adf2(2)*-620.856, adf3(3)*-349.201, adf4(4)*-602.110, adf7(7)*+941.377], [1, 1, 0, 1, 1], 708.409)
+result=p(); 0.6666666666666666
+IndLenGenome:285
+IndGenome:[80, 54, 28, 3, 51, 96, 78, 9, 67, 15, 3, 8, 99, 45, 15, 22, 30, 51, 53, 20, 89, 53, 49, 74, 33, 95, 91, 78, 91, 82, 36, 90, 60, 87, 65, 85, 36, 61, 68, 67, 61, 41, 89, 56, 40, 70, 73, 89, 40, 63, 36, 90, 62, 67, 59, 65, 73, 82, 67, 29, 30, 80, 92, 28, 68, 32, 30, 73, 39, 24, 46, 65, 57, 51, 30, 49, 34, 29, 55, 24, 8, 70, 59, 41, 40, 95, 93, 72, 37, 79, 60, 27, 90, 52, 96, 94, 67, 47, 77, 35, 29, 87, 19, 38, 45, 46, 26, 7, 51, 58, 22, 52, 56, 56, 97, 36, 17, 59, 76, 56, 11, 95, 93, 69, 82, 58, 69, 85, 82, 35, 24, 36, 28, 72, 71, 64, 48, 79, 56, 55, 10, 64, 53, 40, 14, 51, 65, 37, 14, 29, 51, 60, 64, 40, 28, 75, 89, 55, 49, 51, 32, 75, 89, 52, 95, 24, 32, 44, 76, 41, 86, 53, 72, 89, 30, 38, 72, 45, 97, 73, 66, 53, 67, 18, 74, 86, 81, 58, 10, 89, 66, 28, 99, 65, 84, 0, 26, 32, 13, 36, 48, 95, 83, 47, 43, 41, 95, 27, 67, 81, 74, 55, 20, 31, 80, 32, 98, 50, 71, 75, 64, 92, 100, 10, 1, 66, 51, 90, 57, 9, 71, 38, 72, 57, 70, 37, 50, 64, 77, 94, 40, 65, 87, 0, 45, 84, 99, 2, 99, 15, 15, 49, 31, 45, 6, 94, 38, 62, 56, 24, 81, 1, 57, 21, 10, 26, 14, 45, 43, 15, 70, 52, 89, 67, 3, 41, 68, 17, 10, 47, 60, 46, 27, 51, 12]
+last_save: 1019
+
+Gen:10
+TrainFitness:0.8333333333333334
+TestFitness:0.5
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.greater(x[index],-696492.1480).all():
+      return False
+    else:
+      return False
+  def adf1(index):
+    if np.less(psqrt(x[index]),+931758.5221).all():
+      return True
+    else:
+      return False
+  def adf2(index):
+    if np.equal(x[index],+633094.8670).all():
+      return False
+    else:
+      return True
+  def adf3(index):
+    if np.equal(np.cos(x[index]),-169744.7145).all():
+      return False
+    else:
+      return False
+  def adf4(index):
+    if np.equal(psqrt(x[index]),-628159.5509).all():
+      return False
+    else:
+      return False
+  def adf7(index):
+    if np.greater(x[index],+003571.9916).all():
+      if np.equal(rlog(x[index]),-955097.9423).all():
+        return False
+      else:
+        return False
+      return False
+    else:
+      if np.equal(psqrt(x[index]),-991616.1758).all():
+        if np.less(x[index],+292687.9990).all():
+          return True
+        else:
+          return True
+        return True
+      else:
+        if np.greater(rlog(x[index]),-143775.8133).all():
+          if np.equal(psqrt(x[index]),-693398.7690).all():
+            return True
+          else:
+            return True
+          return True
+        else:
+          if np.equal(np.sin(x[index]),+643775.8133).all():
+            if np.equal(psqrt(x[index]),+350537.6134).all():
+              return False
+            else:
+              return True
+            return True
+          else:
+            if np.equal(sigmoid(x[index]),-283334.3317).all():
+              return False
+            else:
+              return True
+            return True
+          return False
+        return True
+      return False
+  return multiple_operation([adf0(0)*+920.005, adf1(1)*+193.622, adf2(2)*+111.164, adf3(3)*+704.590, adf4(4)*-560.156, adf7(7)*+557.096], [1, 0, 1, 0, 0], 025.327)
+result=p(); 0.8333333333333334
+IndLenGenome:467
+IndGenome:[76, 97, 99, 55, 60, 49, 84, 61, 71, 16, 99, 26, 14, 49, 92, 1, 84, 38, 50, 7, 75, 58, 99, 61, 82, 95, 11, 96, 89, 59, 23, 21, 87, 95, 48, 95, 42, 92, 61, 48, 17, 77, 89, 86, 55, 69, 86, 2, 76, 23, 13, 50, 19, 64, 58, 86, 97, 40, 41, 88, 98, 15, 32, 62, 61, 18, 81, 47, 81, 96, 89, 87, 44, 44, 87, 61, 34, 85, 83, 33, 55, 49, 11, 66, 53, 16, 75, 65, 16, 22, 78, 1, 55, 59, 35, 25, 10, 49, 87, 29, 34, 92, 23, 27, 77, 81, 86, 53, 50, 20, 53, 15, 27, 51, 29, 39, 81, 36, 71, 65, 16, 22, 78, 1, 55, 59, 35, 25, 10, 49, 87, 29, 34, 92, 23, 27, 77, 81, 86, 53, 50, 20, 53, 15, 27, 51, 29, 39, 81, 36, 71, 46, 31, 67, 15, 38, 55, 37, 45, 70, 98, 12, 62, 39, 52, 96, 58, 87, 19, 29, 39, 80, 80, 90, 68, 78, 58, 60, 46, 58, 69, 1, 30, 21, 14, 53, 37, 37, 15, 98, 91, 23, 33, 7, 77, 58, 65, 67, 41, 47, 36, 49, 73, 33, 59, 8, 77, 36, 59, 90, 22, 80, 24, 30, 74, 98, 78, 84, 98, 56, 99, 46, 14, 53, 37, 37, 15, 98, 91, 23, 33, 7, 77, 58, 65, 67, 46, 47, 83, 45, 60, 35, 3, 27, 66, 41, 33, 74, 81, 68, 22, 75, 20, 88, 33, 72, 41, 38, 12, 98, 73, 73, 73, 64, 33, 53, 31, 87, 15, 42, 98, 33, 86, 17, 15, 18, 85, 92, 49, 39, 12, 70, 60, 20, 75, 3, 58, 18, 91, 39, 13, 86, 22, 52, 12, 78, 95, 51, 41, 51, 91, 76, 74, 92, 80, 23, 37, 90, 24, 95, 29, 60, 85, 15, 75, 35, 26, 10, 51, 55, 86, 88, 24, 60, 85, 85, 67, 30, 29, 86, 49, 87, 66, 43, 86, 44, 45, 20, 62, 45, 63, 92, 17, 48, 99, 80, 92, 42, 62, 58, 99, 19, 72, 58, 89, 50, 100, 71, 72, 58, 47, 95, 53, 19, 51, 51, 2, 44, 97, 77, 83, 87, 40, 93, 74, 43, 87, 69, 98, 86, 76, 19, 79, 91, 41, 28, 45, 33, 23, 75, 53, 0, 11, 43, 9, 93, 74, 43, 87, 69, 98, 86, 76, 19, 79, 91, 41, 28, 45, 33, 23, 75, 53, 0, 11, 43, 9, 45, 25, 43, 71, 58, 62, 10, 73, 16, 2, 28, 38, 17, 22, 92, 46, 87, 11, 47, 35, 39, 47, 15, 43, 88, 21, 21, 62, 96, 36, 22, 85, 18, 43, 63, 23, 60, 82, 76, 23, 1, 14, 30, 50, 41, 61, 46, 41, 31, 86]
+last_save: 1019
+
+Gen:58
+TrainFitness:1.0
+TestFitness:0.5
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.greater(x[index],-696492.1480).all():
+      return False
+    else:
+      return False
+  def adf1(index):
+    if np.less(psqrt(x[index]),+939755.5225).all():
+      return True
+    else:
+      return False
+  def adf2(index):
+    if np.equal(x[index],+633094.8270).all():
+      return False
+    else:
+      return True
+  def adf3(index):
+    if np.equal(np.cos(x[index]),-169744.7145).all():
+      return False
+    else:
+      return False
+  def adf4(index):
+    if np.equal(psqrt(x[index]),-628159.5509).all():
+      return False
+    else:
+      return False
+  def adf7(index):
+    if np.greater(x[index],+005571.9916).all():
+      if np.equal(rlog(x[index]),-955097.9483).all():
+        return False
+      else:
+        return False
+      return False
+    else:
+      if np.equal(psqrt(x[index]),-991616.1758).all():
+        if np.less(x[index],+292687.9990).all():
+          return True
+        else:
+          return True
+        return True
+      else:
+        if np.greater(rlog(x[index]),+143775.8133).all():
+          if np.equal(psqrt(x[index]),-693398.7690).all():
+            return True
+          else:
+            return True
+          return True
+        else:
+          if np.equal(np.sin(x[index]),+643775.8133).all():
+            if np.equal(psqrt(x[index]),+350537.6134).all():
+              return False
+            else:
+              return True
+            return True
+          else:
+            if np.equal(sigmoid(x[index]),-283334.3317).all():
+              return True
+            else:
+              return True
+            return True
+          return False
+        return True
+      return False
+  return multiple_operation([adf0(0)*-920.005, adf1(1)*+193.620, adf2(2)*+111.164, adf3(3)*+704.590, adf4(4)*-560.156, adf7(7)*+567.096], [1, 0, 1, 0, 0], 025.327)
+result=p(); 1.0
+IndLenGenome:467
+IndGenome:[76, 97, 99, 55, 60, 49, 84, 61, 71, 16, 99, 26, 14, 49, 92, 1, 84, 38, 50, 7, 75, 58, 99, 61, 82, 95, 11, 96, 89, 59, 23, 19, 87, 95, 15, 95, 42, 92, 55, 48, 17, 77, 89, 86, 55, 69, 86, 2, 76, 23, 13, 50, 19, 64, 58, 52, 97, 40, 41, 88, 98, 15, 32, 62, 61, 97, 81, 47, 81, 96, 89, 87, 44, 44, 87, 61, 34, 85, 83, 33, 55, 49, 11, 66, 53, 16, 75, 65, 16, 22, 78, 1, 55, 59, 35, 25, 10, 49, 87, 29, 34, 92, 23, 27, 77, 81, 86, 53, 50, 20, 75, 15, 27, 51, 29, 39, 81, 36, 71, 74, 16, 22, 78, 1, 55, 59, 35, 25, 10, 49, 87, 29, 34, 58, 23, 27, 77, 81, 86, 53, 50, 20, 53, 15, 27, 51, 29, 39, 81, 36, 71, 46, 31, 67, 15, 38, 55, 37, 45, 70, 34, 12, 62, 39, 52, 96, 58, 87, 19, 29, 39, 80, 80, 90, 68, 78, 58, 60, 46, 58, 69, 88, 94, 21, 14, 53, 37, 37, 15, 98, 91, 23, 33, 7, 77, 58, 65, 67, 41, 47, 36, 49, 73, 33, 59, 8, 77, 36, 59, 90, 22, 80, 24, 30, 74, 98, 78, 84, 98, 56, 99, 46, 14, 53, 37, 37, 15, 98, 91, 23, 33, 7, 77, 58, 65, 67, 46, 47, 83, 45, 60, 35, 3, 27, 66, 41, 33, 74, 81, 68, 22, 75, 14, 88, 33, 72, 31, 38, 12, 98, 73, 73, 73, 64, 33, 53, 31, 87, 12, 42, 98, 33, 86, 17, 15, 18, 85, 15, 49, 39, 12, 70, 60, 20, 75, 3, 58, 18, 91, 39, 13, 86, 22, 30, 12, 78, 95, 51, 41, 51, 91, 76, 74, 92, 80, 23, 37, 90, 24, 95, 29, 60, 85, 15, 75, 35, 26, 10, 51, 55, 86, 88, 24, 60, 85, 36, 67, 30, 29, 86, 49, 87, 66, 43, 86, 44, 45, 20, 62, 45, 63, 92, 17, 48, 99, 80, 92, 42, 62, 58, 99, 19, 72, 58, 89, 50, 100, 71, 72, 58, 47, 95, 53, 19, 51, 51, 2, 44, 97, 77, 83, 87, 40, 93, 74, 43, 87, 69, 98, 86, 76, 19, 79, 91, 41, 28, 45, 33, 23, 75, 53, 0, 11, 43, 9, 93, 74, 43, 87, 69, 98, 86, 76, 19, 79, 91, 41, 28, 45, 33, 23, 75, 53, 0, 11, 43, 9, 45, 25, 43, 71, 58, 62, 10, 73, 16, 2, 28, 38, 17, 22, 92, 46, 87, 11, 47, 35, 39, 47, 15, 43, 88, 21, 21, 62, 96, 36, 22, 85, 18, 43, 63, 23, 60, 82, 76, 23, 1, 14, 30, 50, 41, 61, 46, 41, 31, 86]
+last_save: 1019
+
+Gen:58
+last_save: 1019
+Exit:TrueFalseFalse
+
+Gen:1
+TrainFitness:0.8333333333333334
+TestFitness:0.5
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.greater(np.cos(x[index]),-262969.7857).all():
+      return True
+    else:
+      return True
+  def adf1(index):
+    if np.equal(np.sin(x[index]),-485739.1462).all():
+      return True
+    else:
+      return False
+  def adf2(index):
+    if np.greater(x[index],-873184.2645).all():
+      return False
+    else:
+      return True
+  def adf3(index):
+    if np.less(x[index],+023354.8463).all():
+      return False
+    else:
+      return True
+  def adf4(index):
+    if np.equal(x[index],+384494.9649).all():
+      return False
+    else:
+      return False
+  def adf7(index):
+    if np.equal(x[index],+051644.3023).all():
+      return False
+    else:
+      return False
+  return multiple_operation([adf0(0)*+897.570, adf1(1)*-064.241, adf2(2)*+913.033, adf3(3)*-718.162, adf4(4)*-135.721, adf7(7)*+871.855], [1, 1, 0, 0, 0], 945.112)
+result=p(); 0.8333333333333334
+IndLenGenome:282
+IndGenome:[85, 33, 82, 72, 61, 93, 72, 47, 27, 88, 79, 79, 89, 11, 49, 56, 17, 65, 78, 55, 17, 62, 99, 69, 89, 3, 79, 56, 11, 80, 78, 53, 54, 91, 22, 23, 15, 51, 89, 72, 18, 77, 37, 47, 16, 52, 91, 37, 39, 56, 93, 51, 59, 24, 76, 8, 16, 70, 47, 10, 67, 91, 97, 43, 29, 95, 89, 92, 65, 14, 35, 37, 81, 25, 76, 64, 78, 19, 82, 93, 39, 71, 47, 90, 77, 63, 31, 66, 11, 30, 94, 71, 58, 76, 91, 17, 42, 30, 77, 42, 72, 99, 20, 75, 68, 72, 66, 79, 25, 11, 88, 23, 64, 8, 29, 75, 19, 11, 94, 37, 23, 40, 44, 46, 53, 25, 24, 33, 28, 28, 36, 22, 94, 38, 92, 60, 54, 48, 42, 98, 33, 46, 61, 43, 30, 96, 23, 64, 47, 52, 63, 74, 57, 69, 37, 34, 17, 64, 53, 65, 89, 94, 77, 94, 35, 36, 38, 18, 11, 46, 31, 73, 49, 97, 45, 24, 12, 88, 62, 67, 13, 42, 36, 14, 24, 65, 21, 18, 6, 46, 49, 88, 69, 37, 77, 85, 24, 38, 79, 1, 35, 81, 81, 8, 1, 29, 48, 31, 97, 66, 24, 51, 76, 35, 6, 97, 52, 96, 36, 23, 16, 21, 55, 100, 4, 39, 93, 34, 4, 37, 45, 34, 83, 90, 2, 50, 100, 6, 0, 89, 85, 84, 80, 36, 39, 47, 28, 28, 57, 70, 77, 61, 15, 85, 29, 83, 5, 56, 45, 95, 84, 32, 6, 10, 42, 17, 90, 6, 13, 24, 95, 95, 65, 40, 50, 73, 56, 57, 60, 85, 99, 97]
+last_save: 10110
+
+Gen:45
+TrainFitness:1.0
+TestFitness:0.5
+MaxGenLen:500
+Individual: def p():
+  def adf0(index):
+    if np.less(np.cos(x[index]),-845086.1595).all():
+      return False
+    else:
+      return True
+  def adf1(index):
+    if np.greater(np.sin(x[index]),-663657.9613).all():
+      return True
+    else:
+      return True
+  def adf2(index):
+    if np.greater(rlog(x[index]),+528179.1368).all():
+      return False
+    else:
+      return False
+  def adf3(index):
+    if np.greater(x[index],+005627.7957).all():
+      return True
+    else:
+      return False
+  def adf4(index):
+    if np.greater(x[index],-793032.4327).all():
+      if np.less(x[index],-047730.6742).all():
+        return False
+      else:
+        return False
+      return False
+    else:
+      if np.greater(x[index],-337935.5269).all():
+        return False
+      else:
+        return False
+      return False
+  def adf7(index):
+    if np.less(x[index],+237157.6737).all():
+      return False
+    else:
+      return False
+  return multiple_operation([adf0(0)*-367.958, adf1(1)*+303.642, adf2(2)*+549.460, adf3(3)*-933.529, adf4(4)*-397.692, adf7(7)*-629.463], [1, 0, 0, 1, 1], 136.927)
+result=p(); 1.0
+IndLenGenome:449
+IndGenome:[0, 89, 28, 23, 22, 14, 67, 5, 65, 60, 38, 84, 85, 90, 8, 76, 81, 45, 9, 25, 79, 96, 43, 45, 45, 48, 54, 29, 43, 75, 16, 66, 73, 66, 25, 57, 69, 66, 91, 93, 76, 38, 71, 7, 54, 94, 58, 13, 64, 65, 25, 62, 48, 91, 57, 19, 91, 93, 76, 38, 11, 91, 67, 83, 57, 67, 64, 84, 18, 30, 90, 45, 36, 22, 37, 27, 79, 15, 17, 12, 5, 18, 40, 46, 27, 39, 83, 67, 15, 67, 99, 63, 80, 13, 62, 94, 33, 82, 27, 33, 55, 81, 25, 41, 85, 50, 44, 7, 57, 73, 30, 76, 47, 74, 12, 33, 39, 95, 63, 15, 67, 89, 43, 14, 3, 93, 77, 69, 63, 25, 65, 32, 56, 29, 95, 95, 31, 22, 69, 25, 83, 87, 72, 13, 22, 13, 67, 31, 65, 87, 96, 77, 53, 37, 27, 79, 15, 17, 23, 95, 18, 83, 46, 27, 39, 95, 88, 15, 86, 99, 63, 80, 13, 46, 34, 92, 55, 46, 87, 65, 64, 79, 24, 36, 50, 93, 15, 95, 69, 43, 33, 25, 22, 39, 71, 5, 21, 13, 29, 67, 16, 79, 12, 14, 31, 11, 36, 22, 19, 74, 16, 93, 27, 93, 38, 72, 57, 19, 87, 81, 13, 76, 19, 22, 17, 27, 75, 24, 10, 15, 56, 68, 1, 49, 12, 31, 57, 69, 68, 83, 53, 90, 45, 36, 22, 53, 27, 79, 15, 17, 12, 44, 18, 59, 46, 84, 39, 4, 63, 62, 67, 99, 63, 80, 13, 76, 94, 90, 70, 92, 11, 56, 53, 12, 45, 43, 61, 57, 58, 34, 47, 41, 42, 28, 75, 81, 36, 64, 17, 35, 77, 57, 19, 9, 53, 35, 99, 24, 82, 62, 22, 39, 16, 55, 95, 58, 91, 73, 49, 65, 62, 99, 17, 50, 36, 30, 63, 97, 24, 83, 44, 92, 49, 93, 29, 1, 17, 57, 69, 99, 42, 60, 65, 52, 97, 62, 73, 76, 14, 87, 92, 12, 53, 31, 36, 7, 43, 79, 67, 96, 21, 98, 70, 60, 1, 79, 12, 62, 40, 93, 35, 9, 14, 12, 84, 15, 34, 24, 40, 91, 10, 45, 69, 40, 74, 64, 24, 81, 99, 9, 47, 82, 98, 58, 7, 41, 99, 94, 21, 97, 52, 100, 64, 65, 34, 71, 16, 71, 40, 56, 23, 49, 35, 71, 68, 1, 21, 56, 85, 54, 3, 9, 84, 37, 17, 37, 31, 79, 27, 60, 44, 6, 72, 16, 82, 2, 67, 30, 84, 23, 19, 43, 71, 55, 83, 69, 91, 33, 36, 19, 73, 37, 79, 69, 20, 21, 14, 50, 18]
+last_save: 10110
+
+Gen:45
+last_save: 10110
+Exit:TrueFalseFalse

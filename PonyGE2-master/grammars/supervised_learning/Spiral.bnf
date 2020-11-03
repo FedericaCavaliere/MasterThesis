@@ -1,0 +1,42 @@
+<if-expr> ::= np'.'where(<c-expr>',' <if-expr>',' <if-expr>) | np'.'where(<c-expr>',' 1',' 0)
+
+<c-expr> ::= np'.'logical_or(<c-expr>','<c-expr>) | np'.'logical_and(<c-expr>','<c-expr>) | np'.'logical_not(<c-expr>) |
+             np'.'greater(<arg>','<number>) | np'.'less(<arg>','<number>) |
+             np'.'equal(<arg>','<number>) | within(<arg>','<number>','<number>)
+
+<number> ::= <sign><nc><c><c><c><c><c>'.'<c><c><c><c>
+
+<arg> ::= x[<f-index>] | <ff>
+
+<f-index> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8
+
+<ff> ::= <fun>(x[<f-index>]) | <gr1-fun><op2><gr1-fun> | <gr2-fun><op1><gr2-fun> | <gr3-fun><op1><gr3-fun>
+
+<gr1-index> ::= 0 | 3 | 4 | 5 | 6 | 7 | 8
+<gr1-fv> ::= <real-number><mul><gr1-fun><op1><real-number>
+<gr1-fun> ::=  x[<gr1-index>] | <gr1-fv> | <fun>(<gr1-fv>) | <fun>(x[<gr1-index>])
+
+<gr2-index> ::= 5 | 6 | 7
+<gr2-fv> ::= <real-number><mul><gr2-fun><op1><real-number>
+<gr2-fun> ::=  x[<gr2-index>] | <gr2-fv> | <fun>(<gr2-fv>) | <fun>(x[<gr2-index>])
+<gr3-index> ::= 1 | 2
+<gr3-fv> ::= <real-number><mul><gr3-fun><op1><real-number>
+<gr3-fun> ::=  x[<gr3-index>] | <gr3-fv> | <fun>(<gr3-fv>) | <fun>(x[<gr3-index>])
+
+<fun> ::= np'.'sin | np'.'cos | np'.'tanh | sigmoid | rlog | psqrt
+
+<mul> ::= "*"
+<div> ::= "/"
+<plus> ::= "+"
+<minus> ::= "-"
+<op1> ::= <plus> | <minus>
+<op2> ::= <mul> | <div>
+<sign> ::= <plus> | <minus>
+
+<real-number> ::= <integer-part>'.'<fraction>
+<integer-part> ::= <digit> | <integer-part><digit>
+<fraction> ::= <digit> | <fraction><digit>
+<digit> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+
+<c> ::=  0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+<nc> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9

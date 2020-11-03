@@ -1,0 +1,35 @@
+<p> ::= <defp>{::}<callp>
+<defp> ::= def p():{:{::}<defadf0>{::}<defadf1>{::}<defadf2>{::}<defadf3>{::}<defadf4>{::}<defadf5>{::}<defadf6>{::}<defadf7>{::}<defadf8>{::}<codep>:}
+<callp> ::= result=p()
+
+<defadf0> ::= def adf0(index):{:{::}<code>{::}:}
+<defadf1> ::= def adf1(index):{:{::}<code>{::}:}
+<defadf2> ::= def adf2(index):{:{::}<code>{::}:}
+<defadf3> ::= def adf3(index):{:{::}<code>{::}:}
+<defadf4> ::= def adf4(index):{:{::}<code>{::}:}
+<defadf5> ::= def adf5(index):{:{::}<code>{::}:}
+<defadf6> ::= def adf6(index):{:{::}<code>{::}:}
+<defadf7> ::= def adf7(index):{:{::}<code>{::}:}
+<defadf8> ::= def adf8(index):{:{::}<code>{::}:}
+
+<v> ::= [adf0(0)*<number>, adf1(1)*<number>, adf2(2)*<number>, adf3(3)*<number>, adf4(4)*<number>, adf5(5)*<number>, adf6(6)*<number>, adf7(7)*<number>, adf8(8)*<number>]
+<f> ::= [<0-1>, <0-1>, <0-1>, <0-1>, <0-1>, <0-1>, <0-1>, <0-1>]
+
+<codep> ::= return multiple_operation(<v>, <f>, <number>)
+
+<0-1> ::= 0 | 1
+<i> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8
+
+<code> ::= <if-else> | if <cond>:{:return <bool>:}{::}else:{:return <bool>:}
+<if-else> ::= if <cond>:{:{::}<code>{::}return <bool>:}{::}else:{:{::}<code>{::}return <bool>:}
+<cond> ::= np'.'greater(<arg>','<number>).all() | np'.'less(<arg>','<number>).all() | np'.'equal(<arg>','<number>).all()
+
+<arg> ::= <fun>(x[index]) | x[index]
+<fun> ::= np.sin | np.cos | np.tanh | sigmoid | rlog | psqrt
+
+<number> ::= <sign><un-number>
+<un-number> ::= <c><c><c><c><c><c>'.'<c><c><c><c>
+<sign> ::= "+" | "-"
+
+<bool> ::= True | False
+<c> ::=  0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9

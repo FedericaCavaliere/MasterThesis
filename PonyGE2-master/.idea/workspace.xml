@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="795352e3-18b7-4588-901e-52424cab82cd" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="6694739">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="52" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.open.time.1" value="18" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="5" />
+          <entry key="project.open.time.4" value="6" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="5" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="1040" />
+          <entry key="bnf" value="770" />
+          <entry key="csv" value="14" />
+          <entry key="dummy" value="5" />
+          <entry key="py" value="8312" />
+          <entry key="pybnf" value="1757" />
+          <entry key="txt" value="350" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="BNF" value="770" />
+          <entry key="CSV" value="14" />
+          <entry key="PLAIN_TEXT" value="2112" />
+          <entry key="Python" value="9352" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bnf" value="11" />
+          <entry key="csv" value="31" />
+          <entry key="dat" value="1" />
+          <entry key="py" value="382" />
+          <entry key="pybnf" value="64" />
+          <entry key="txt" value="302" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="BNF" value="11" />
+          <entry key="CSV" value="31" />
+          <entry key="PLAIN_TEXT" value="367" />
+          <entry key="Python" value="382" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/search_loop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1099">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#484#2211#0" />
+                <marker date="1583930608122" expanded="true" signature="2283:2288" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fitness/supervised_learning/adf_supervised_learning.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grammars/test_basic.pybnf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grammars/test_okkei.pybnf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grammars/test_okkei_3.pybnf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grammars/test_okkei_4.pybnf">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MUTATE_DUPLICATES</find>
+      <find />
+      <find>Multico</find>
+      <find>invalid</find>
+      <find>CLASS</find>
+      <find>FILE</find>
+      <find>nan</find>
+      <find>post exec</find>
+      <find>DATA</find>
+      <find>'RANDOM_SEED'</find>
+      <find>datase</find>
+      <find>shape</find>
+      <find>print</find>
+      <find>MULTI</find>
+      <find>0</find>
+      <find>multic</find>
+      <find>tourn</find>
+      <find>BUG2</find>
+      <find>0.172414</find>
+      <find>last_save</find>
+      <find>15/15</find>
+      <find>dataset</find>
+      <find>mul</find>
+      <find>2/10</find>
+      <find>invali</find>
+      <find>/9</find>
+      <find>0.8421052631578947</find>
+      <find>data</find>
+      <find>0.8108108108108109</find>
+      <find>0.7884615384615384</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>k</replace>
+      <replace>,</replace>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ReplyChallenge" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/grammars/supervised_learning/test.bnf" />
+        <option value="$PROJECT_DIR$/grammars/supervised_learning/Spiral.bnf" />
+        <option value="$PROJECT_DIR$/grammars/test_adf_spiral.pybnf" />
+        <option value="$PROJECT_DIR$/src/fitness/sequence_match.py" />
+        <option value="$PROJECT_DIR$/src/fitness/supervised_learning/classification.py" />
+        <option value="$PROJECT_DIR$/src/fitness/supervised_learning/supervised_learning.py" />
+        <option value="$PROJECT_DIR$/src/utilities/representation/check_methods.py" />
+        <option value="$PROJECT_DIR$/src/algorithm/step.py" />
+        <option value="$PROJECT_DIR$/grammars/test_okkei_okkei.pybnf" />
+        <option value="$PROJECT_DIR$/parameters/sequence_match.txt" />
+        <option value="$PROJECT_DIR$/grammars/sequence_match.pybnf" />
+        <option value="$PROJECT_DIR$/parameters/classification.txt" />
+        <option value="$PROJECT_DIR$/parameters/classification_0.txt" />
+        <option value="$PROJECT_DIR$/src/fitness/supervised_learning/adf_classification_0.py" />
+        <option value="$PROJECT_DIR$/src/fitness/supervised_learning/adf_classification_1.py" />
+        <option value="$PROJECT_DIR$/src/fitness/supervised_learning/adf_supervised_learning_0.py" />
+        <option value="$PROJECT_DIR$/src/result_big_run/2019_12_11-15_22_20.txt" />
+        <option value="$PROJECT_DIR$/src/result_big_run/2019_12_13-11_23_54.txt" />
+        <option value="$PROJECT_DIR$/src/fitness/supervised_learning/adf_supervised_learning_1.py" />
+        <option value="$PROJECT_DIR$/src/fitness/supervised_learning/adf_classification.py" />
+        <option value="$PROJECT_DIR$/grammars/test_okkei_2.pybnf" />
+        <option value="$PROJECT_DIR$/src/operators/crossover.py" />
+        <option value="$PROJECT_DIR$/src/utilities/fitness/math_functions.py" />
+        <option value="$PROJECT_DIR$/src/big_run_1.py" />
+        <option value="$PROJECT_DIR$/src/big_run_2.py" />
+        <option value="$PROJECT_DIR$/src/utilities/fitness/get_data.py" />
+        <option value="$PROJECT_DIR$/src/big_run.py" />
+        <option value="$PROJECT_DIR$/src/big_run_fsel.py" />
+        <option value="$PROJECT_DIR$/src/representation/individual.py" />
+        <option value="$PROJECT_DIR$/src/ponyge.py" />
+        <option value="$PROJECT_DIR$/grammars/test_okkei_4.pybnf" />
+        <option value="$PROJECT_DIR$/parameters/classification_3.txt" />
+        <option value="$PROJECT_DIR$/parameters/classification_4.txt" />
+        <option value="$PROJECT_DIR$/datasets/Meander/Full.csv" />
+        <option value="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/random.py" />
+        <option value="$PROJECT_DIR$/src/operators/initialisation.py" />
+        <option value="$PROJECT_DIR$/datasets/Spiral/new_Full.csv" />
+        <option value="$PROJECT_DIR$/src/fitness/evaluation.py" />
+        <option value="$PROJECT_DIR$/src/operators/selection.py" />
+        <option value="$PROJECT_DIR$/parameters/classification_1.txt" />
+        <option value="$PROJECT_DIR$/datasets/Spiral/Full.csv" />
+        <option value="$PROJECT_DIR$/grammars/test_simple.pybnf" />
+        <option value="$PROJECT_DIR$/src/algorithm/parameters.py" />
+        <option value="$PROJECT_DIR$/parameters/classification_2.txt" />
+        <option value="$PROJECT_DIR$/src/algorithm/search_loop.py" />
+        <option value="$PROJECT_DIR$/src/result_big_run/2020_03_12-08_33_39.txt" />
+        <option value="$PROJECT_DIR$/grammars/test_okkei.pybnf" />
+        <option value="$PROJECT_DIR$/grammars/test_okkei_3.pybnf" />
+        <option value="$PROJECT_DIR$/src/fitness/supervised_learning/adf_supervised_learning.py" />
+        <option value="$PROJECT_DIR$/parameters/classification_spiral.txt" />
+        <option value="$PROJECT_DIR$/parameters/classification_meander.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="821" />
+  </component>
+  <component name="ProjectId" id="1U1HfkRsnxCmThovuTp39flNVqv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PonyGE2-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PonyGE2-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PonyGE2-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PonyGE2-master" type="462c0819:PsiDirectoryNode" />
+              <item name="grammars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PonyGE2-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PonyGE2-master" type="462c0819:PsiDirectoryNode" />
+              <item name="parameters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PonyGE2-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PonyGE2-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PonyGE2-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PonyGE2-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fitness" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PonyGE2-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PonyGE2-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fitness" type="462c0819:PsiDirectoryNode" />
+              <item name="supervised_learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="n_vars&#9;null&#9;null" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings sdk-home="/usr/bin/python2.7">
+        <option name="mySdkHome" value="/usr/bin/python2.7" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/datasets/Meander" />
+      <recent name="$PROJECT_DIR$/src/scripts/PSO" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/grammars" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/datasets/Meander" />
+      <recent name="$PROJECT_DIR$/datasets" />
+      <recent name="$PROJECT_DIR$/datasets/Spiral" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.big_run">
+    <configuration name="adf_supervised_learning" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PonyGE2-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/fitness/supervised_learning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/fitness/supervised_learning/adf_supervised_learning.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="big_run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PonyGE2-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/big_run.py" />
+      <option name="PARAMETERS" value="--parameters classification_2.txt" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="big_run_fsel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PonyGE2-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/big_run_fsel.py" />
+      <option name="PARAMETERS" value="--parameters classification_3.txt" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ponyge" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PonyGE2-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ponyge.py" />
+      <option name="PARAMETERS" value="--parameters classification_1.txt" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="search_loop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PonyGE2-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/algorithm/search_loop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.big_run" />
+      <item itemvalue="Python.adf_supervised_learning" />
+      <item itemvalue="Python.big_run_fsel" />
+      <item itemvalue="Python.ponyge" />
+      <item itemvalue="Python.search_loop" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.adf_supervised_learning" />
+        <item itemvalue="Python.big_run" />
+        <item itemvalue="Python.search_loop" />
+        <item itemvalue="Python.ponyge" />
+        <item itemvalue="Python.big_run_fsel" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="795352e3-18b7-4588-901e-52424cab82cd" name="Default Changelist" comment="" />
+      <created>1570199704065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570199704065</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="821" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23114869" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32780084" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5010571" side_tool="true" weight="0.16275862" />
+      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32689655" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.8413793" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.3994528" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" sideWeight="0.49964765" weight="0.32891566" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4989429" visible="true" weight="0.18518518" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LIMIT_HISTORY" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ponyge" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_10-20_34_21.txt" />
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_10-20_34_07.txt" />
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_10-20_29_38.txt" />
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_10-20_29_06.txt" />
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_10-20_27_23.txt" />
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_10-20_17_27.txt" />
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_10-20_19_50.txt" />
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_10-20_25_08.txt" />
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_10-22_03_12.txt" />
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_10-23_37_26.txt" />
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_10-23_44_52.txt" />
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_11-09_03_22.txt" />
+    <entry file="file://$PROJECT_DIR$/datasets/Spiral/new_Full.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="5520">
+          <caret line="368" column="89" selection-start-line="368" selection-start-column="89" selection-end-line="368" selection-end-column="89" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_11-10_12_49.txt" />
+    <entry file="file://$PROJECT_DIR$/src/representation/grammar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="283" selection-start-line="283" selection-end-line="283" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_11-10_15_53.txt" />
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_11-10_17_39.txt" />
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_11-13_39_34.txt" />
+    <entry file="file://$PROJECT_DIR$/src/operators/selection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_11-13_44_02.txt" />
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_11-22_32_59.txt" />
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_12-08_33_39.txt" />
+    <entry file="file://$PROJECT_DIR$/src/result_big_run/2020_03_13-21_39_48.txt" />
+    <entry file="file://$PROJECT_DIR$/src/fitness/base_ff_classes/base_ff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-1199943127/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1555">
+          <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fitness/evaluation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/grammars/adv_grammar/grammar/advanced_grammar.pybnf" />
+    <entry file="file://$PROJECT_DIR$/src/representation/individual.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parameters/string_match.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parameters/sequence_match.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parameters/seed_run_target.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parameters/regression.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parameters/regex_improvement.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parameters/pymax.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/Meander/Full.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-1702" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/Meander/new_Full.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-4852" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/parameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/big_run_fsel.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ponyge.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/big_run.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parameters/classification_distributed.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parameters/GE_parse.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parameters/classification_spiral.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parameters/classification_meander.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grammars/supervised_learning/supervised_learning.bnf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/search_loop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1099">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#484#2211#0" />
+            <marker date="1583930608122" expanded="true" signature="2283:2288" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grammars/test_okkei_4.pybnf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fitness/supervised_learning/adf_supervised_learning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grammars/test_basic.pybnf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grammars/test_okkei.pybnf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grammars/test_okkei_3.pybnf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
